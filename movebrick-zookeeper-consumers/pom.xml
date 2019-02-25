@@ -10,7 +10,7 @@
 
 	<parent>
 		<groupId>com.movebrick</groupId>
-		<artifactId>move-brick-parent</artifactId>
+		<artifactId>movebrick-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 

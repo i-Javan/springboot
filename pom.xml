@@ -15,6 +15,7 @@
 		<module>movebrick-mybatisPlus</module>
 		<module>movebrick-mybatis</module>
 		<module>movebrick-activeMQ</module>
+		<module>movebrick-parent</module>
 	</modules>
 
 </project>
