@@ -13,7 +13,7 @@ import com.movebrick.dubbo.module.service.DubboService;
 @RestController
 @RequestMapping("/pc/dobbe")
 public class DubboController {
-	@Reference(version = "1.0.1")
+	@Reference(version = "1.0.0")
 	private DubboService dubboService;
 
 	@GetMapping("/get")

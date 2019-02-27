@@ -10,7 +10,7 @@ import com.movebrick.dubbo.module.bean.User;
 @Component
 public class DubboClientService {
 	
-	@Reference(version = "1.0.1")
+	@Reference(version = "1.0.0")
 	DubboService dubboService;
 	
 	public List<User> get() {
