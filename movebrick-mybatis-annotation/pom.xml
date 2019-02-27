@@ -2,10 +2,35 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<name>movebrick-mybatis-annotation</name>
+	<description>movebrick-mybatis-annotation</description>
+
+	<artifactId>movebrick-mybatis-annotation</artifactId>
+	<packaging>jar</packaging>
+
+
+	<!-- 父类 -->
 	<parent>
 		<groupId>com.movebrick</groupId>
 		<artifactId>movebrick</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>movebrick-mybatis-annotation</artifactId>
+
+	<dependencies>
+		<!-- Mybatis依赖 -->
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>1.3.1</version>
+		</dependency>
+		
+	</dependencies>
+
 </project>
+
+
+
+
+
+
+
