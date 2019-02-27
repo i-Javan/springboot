@@ -2,26 +2,37 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<name>movebrick-mybatisPlus</name>
-	<description>movebrick-mybatisPlus</description>
+	<name>movebrick-redis</name>
+	<description>movebrick-redis</description>
 
-	<artifactId>movebrick-mybatisPlus</artifactId>
+	<artifactId>movebrick-redis</artifactId>
 	<packaging>jar</packaging>
 
+
+	<!-- 父类 -->
 	<parent>
 		<groupId>com.movebrick</groupId>
 		<artifactId>movebrick</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
-	<dependencies>
-		<!-- mybatisPlus 相关依赖 -->
-		<dependency>
-			<groupId>com.baomidou</groupId>
-			<artifactId>mybatis-plus-boot-starter</artifactId>
-			<version>${mybatis.plus.version}</version>
-		</dependency>
 
+	<dependencies>
+		<!-- 添加Springboot redis依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+	
+		<!-- 添加Jedis依赖 -->
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 </project>
+
+
+
+
