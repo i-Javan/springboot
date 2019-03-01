@@ -25,6 +25,7 @@
 		<module>movebrick-mybatis-annotation</module>
 		<module>movebrick-zookeeper-dubbo-client</module>
 		<module>movebrick-zookeeper-dubbo-server</module>
+		<module>movebrick-elasticsearch</module>
 	</modules>
 	
 	<!-- 版本定义 -->
