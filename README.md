@@ -1,10 +1,10 @@
 # springboot
 🍃SpringBoot依赖主流技术的整合项目：ActiveMQ,Mybatis,MybatisPlus,Redis,Dubbo,Zookeeper
 
-### Maven集群管理
-https://github.com/i-Javan/springboot
+## Maven集群管理
+* https://github.com/i-Javan/springboot
 
-### ActiveMQ消息队列
+## ActiveMQ消息队列
 https://github.com/i-Javan/springboot/tree/master/movebrick-activeMQ
 
 ### Elasticearch搜索引擎
