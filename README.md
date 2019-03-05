@@ -29,3 +29,6 @@
 * 🌲https://github.com/i-Javan/springboot/tree/master/movebrick-mybatisPlus
 ### Redis 缓存&CURD操作
 * 🌲https://github.com/i-Javan/springboot/tree/master/movebrick-redis
+
+# 🐱‍👓简书地址
+* 🌲https://www.jianshu.com/u/ecd4770495d6
