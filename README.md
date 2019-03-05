@@ -1,5 +1,5 @@
 # springboot
-🍃SpringBoot依赖主流技术的整合项目：ActiveMQ,Mybatis,MybatisPlus,Redis,Dubbo,Zookeeper
+🍃适合初学者练习的SpringBoot2.x整合主流技术Demo：ActiveMQ,Mybatis,MybatisPlus,Redis,Dubbo,Zookeeper，Elasticearch
 
 
 
