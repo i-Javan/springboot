@@ -2,6 +2,8 @@
 🍃适合初学者练习的SpringBoot2.x整合主流技术Demo：ActiveMQ,Mybatis,MybatisPlus,Redis,Dubbo,Zookeeper，Elasticearch
 
 
+# 🐱‍👓简书地址
+* 🌲https://www.jianshu.com/u/ecd4770495d6
 
 # 👨‍👨‍👧‍👦 项目管理
 ### Maven集群管理
@@ -30,5 +32,3 @@
 ### Redis 缓存&CURD操作
 * 🌲https://github.com/i-Javan/springboot/tree/master/movebrick-redis
 
-# 🐱‍👓简书地址
-* 🌲https://www.jianshu.com/u/ecd4770495d6
