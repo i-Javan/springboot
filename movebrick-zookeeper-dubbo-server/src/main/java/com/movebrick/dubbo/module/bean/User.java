@@ -6,6 +6,11 @@ import lombok.Data;
 
 @Data
 public class User implements Serializable{
+	/**
+	 * @author Javan 
+	 * 2019年3月26日 下午5:31:15
+	 */
+	private static final long serialVersionUID = 1L;
 	private String id;
 	private String name;
 	private String age;
@@ -17,6 +22,5 @@ public class User implements Serializable{
 		this.age = age;
 		this.email = email;
 	}
-	
 	
 }

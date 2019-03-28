@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<!-- 执行命令示例： 在此文件所在当前目录下执行 非覆盖模式：java -jar mybatis-generator-core-1.3.5.jar 
+	-configfile generatorConfig.xml 覆盖模式： java -jar mybatis-generator-core-1.3.5.jar -configfile generatorConfig.xml -overwrite -->
+<generatorConfiguration>
+	<!-- 这里的location要替换成你本机的实际路径 -->
+	<classPathEntry location="./ojdbcJdk16-1.0.0.jar" />
+
+	<context id="myDb" targetRuntime="MyBatis3">
+		<plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+		<plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin" />
+		<plugin type="org.mybatis.generator.plugins.FluentBuilderMethodsPlugin" />
+
+
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+
+		<jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+			connectionURL="jdbc:oracle:thin:@120.25.208.147:1521/orcl" userId="pmsuser"
+			password="pms123">
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<javaModelGenerator targetPackage="com.efunds.pms.riskmanage.model"
+			targetProject="mybatis/src/main/java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<sqlMapGenerator targetPackage="mapper"
+			targetProject="mybatis/src/main/resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="com.efunds.pms.riskmanage.dao" targetProject="mybatis/src/main/java">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+         <table tableName="T_PMS_REMIND_CONFIG" domainObjectName="PmsRemindConf">
+        </table>
+
+	</context>
+</generatorConfiguration>

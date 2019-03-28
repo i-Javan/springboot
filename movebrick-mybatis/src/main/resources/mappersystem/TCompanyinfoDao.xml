@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.john.springbootadmin.dao.system.TCompanyinfoDao">
+	
+	<resultMap id="TCompanyinfoMap"
+		type="org.john.springbootadmin.entity.system.TCompanyinfo">
+		<result column="id" property="id">,
+		<result column="companyName" property="companyName">,
+		<result column="companyAddress" property="companyAddress">,
+		<result column="legalPerson" property="legalPerson">,
+		<result column="creditCode" property="creditCode">,
+		<result column="createTime" property="createTime">,
+		<result column="companyType" property="companyType">,
+		<result column="businessScope" property="businessScope">,
+		<result column="scopeDate" property="scopeDate">,
+		<result column="lat" property="lat">,
+		<result column="lng" property="lng">,
+		<result column="delFlag" property="delFlag">,
+		<result column="updateTime" property="updateTime">,
+		<result column="createId" property="createId">
+	</resultMap>
+	
+	
+	<!-- 实体字段 -->
+	<sql id="tCompanyinfoColumms">
+		tCompanyinfo.id AS id,
+		tCompanyinfo.company_name AS companyName,
+		tCompanyinfo.company_address AS companyAddress,
+		tCompanyinfo.legal_person AS legalPerson,
+		tCompanyinfo.credit_code AS creditCode,
+		tCompanyinfo.create_time AS createTime,
+		tCompanyinfo.company_type AS companyType,
+		tCompanyinfo.business_scope AS businessScope,
+		tCompanyinfo.scope_date AS scopeDate,
+		tCompanyinfo.lat AS lat,
+		tCompanyinfo.lng AS lng,
+		tCompanyinfo.del_flag AS delFlag,
+		tCompanyinfo.update_time AS updateTime,
+		tCompanyinfo.create_id AS createId
+	</sql>
+
+	<!--根据ID查找实体 -->
+	<select id="findById" resultType="tCompanyinfo">
+		SELECT
+		<include refid="tCompanyinfoColumms"></include>
+		FROM t_companyinfo tCompanyinfo
+		<where>
+			<if test="id!=null and id!=''">
+				AND tCompanyinfo.id=#{id}
+			</if>
+		</where>
+	</select>
+
+	<!--查询所有数据 -->
+	<select id="findAll" resultType="tCompanyinfo">
+		SELECT
+		<include refid="tCompanyinfoColumms"></include>
+		FROM t_companyinfo tCompanyinfo
+		<where>
+			1=1
+		</where>
+	</select>
+
+
+	<!-- 根据实体参数获取实体 -->
+	<select id="get" resultType="tCompanyinfo">
+		SELECT
+		<include refid="tCompanyinfoColumms"></include>
+		FROM t_companyinfo tCompanyinfo
+		<where>
+			1=1
+		</where>
+	</select>
+
+	<!--根据实体获取列表 -->
+	<select id="getList" resultType="tCompanyinfo">
+		SELECT
+		<include refid="tCompanyinfoColumms"></include>
+		FROM t_companyinfo tCompanyinfo
+		<where>
+			1=1
+		</where>
+	</select>
+	
+	<!-- 获取一个map列表  -->
+	<select id="getListMap"  resultType="java.util.HashMap">
+		SELECT
+		<include refid="tCompanyinfoColumms"></include>
+		FROM t_companyinfo tCompanyinfo
+		<where>
+			1=1
+		</where>
+	</select>
+	
+	
+	<!-- 分页查询 -->
+	<select id="getListByPage" resultType="tCompanyinfo">
+		SELECT
+		<include refid="tCompanyinfoColumms"></include>
+		FROM t_companyinfo tCompanyinfo
+		<include refid="getListByPageWhere"></include>
+		ORDER BY ${orderByName}  ${orderBy}   LIMIT ${pageNo},${pageSize}
+	</select>
+	
+	<!--  分页查询查询条件-->
+	<sql id="getListByPageWhere">
+		<where>
+			1=1
+		</where>
+	</sql>
+	
+	<!--  分页查询获取总数 -->
+	<select id="getTotalCount" resultType="java.lang.Integer">
+		SELECT 
+			COUNT(*) 
+		FROM t_companyinfo tCompanyinfo 
+		<include refid="getListByPageWhere"></include>
+	</select>
+
+		<!-- 新增 -->
+	<insert id="insert" >
+		 INSERT INTO t_companyinfo (
+			id,
+			company_name,
+			company_address,
+			legal_person,
+			credit_code,
+			create_time,
+			company_type,
+			business_scope,
+			scope_date,
+			lat,
+			lng,
+			del_flag,
+			update_time,
+			create_id
+		 ) VALUES (
+			#{id},
+			#{companyName},
+			#{companyAddress},
+			#{legalPerson},
+			#{creditCode},
+			#{createTime},
+			#{companyType},
+			#{businessScope},
+			#{scopeDate},
+			#{lat},
+			#{lng},
+			#{delFlag},
+			#{updateTime},
+			#{createId}
+		 )
+	</insert>
+	
+	<!-- 批量新增 -->
+	<insert id="insertBatch">
+		 INSERT INTO t_companyinfo (
+			id,
+			company_name,
+			company_address,
+			legal_person,
+			credit_code,
+			create_time,
+			company_type,
+			business_scope,
+			scope_date,
+			lat,
+			lng,
+			del_flag,
+			update_time,
+			create_id
+		 ) VALUES 
+		 <foreach collection="list" item="item" index="index" open="(" close=")"  separator=",">
+			#{item.id},
+			#{item.companyName},
+			#{item.companyAddress},
+			#{item.legalPerson},
+			#{item.creditCode},
+			#{item.createTime},
+			#{item.companyType},
+			#{item.businessScope},
+			#{item.scopeDate},
+			#{item.lat},
+			#{item.lng},
+			#{item.delFlag},
+			#{item.updateTime},
+			#{item.createId}		 	
+		 </foreach>
+	</insert>
+	
+	<!-- 修改 -->
+	<update id="update" >
+		UPDATE t_companyinfo tCompanyinfo
+		<set>
+			<if test="id!=null">id=#{id},</if>
+			<if test="companyName!=null">company_name=#{companyName},</if>
+			<if test="companyAddress!=null">company_address=#{companyAddress},</if>
+			<if test="legalPerson!=null">legal_person=#{legalPerson},</if>
+			<if test="creditCode!=null">credit_code=#{creditCode},</if>
+			<if test="createTime!=null">create_time=#{createTime},</if>
+			<if test="companyType!=null">company_type=#{companyType},</if>
+			<if test="businessScope!=null">business_scope=#{businessScope},</if>
+			<if test="scopeDate!=null">scope_date=#{scopeDate},</if>
+			<if test="lat!=null">lat=#{lat},</if>
+			<if test="lng!=null">lng=#{lng},</if>
+			<if test="delFlag!=null">del_flag=#{delFlag},</if>
+			<if test="updateTime!=null">update_time=#{updateTime},</if>
+			<if test="createId!=null">create_id=#{createId},</if>
+		</set>
+		<where>
+			1=1
+			AND tCompanyinfo.id=#{id}
+		</where>
+	</update>
+	
+	<!-- 根据ID删除 -->
+	<delete id="deleteById" >
+		DELETE FROM t_companyinfo WHERE id=#{id}
+	</delete>
+	
+	
+	<!-- 批量删除操作 -->
+	<delete id="deleteBatchById">
+		DELETE FROM t_companyinfo  
+		WHERE
+			id IN 
+		<foreach collection="list" index="index" item="item" open="(" close=")" separator=",">
+			#{item.id}
+		</foreach>
+	</delete>
+	
+</mapper>
+

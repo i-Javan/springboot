@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.efunds.pms.riskmanage.dao.PmsRemindConfMapper">
+  <resultMap id="BaseResultMap" type="com.efunds.pms.riskmanage.model.PmsRemindConf">
+    <id column="S_REMIND_ID" jdbcType="VARCHAR" property="sRemindId" />
+    <result column="S_MENU_FULL_ID" jdbcType="VARCHAR" property="sMenuFullId" />
+    <result column="S_REMIND_TITLE" jdbcType="VARCHAR" property="sRemindTitle" />
+    <result column="S_REMARK" jdbcType="VARCHAR" property="sRemark" />
+    <result column="S_REMIND_CONTROL" jdbcType="CHAR" property="sRemindControl" />
+    <result column="S_REMIND_TMPL_SMS" jdbcType="VARCHAR" property="sRemindTmplSms" />
+    <result column="S_REMIND_TMPL_EMAIL" jdbcType="VARCHAR" property="sRemindTmplEmail" />
+    <result column="S_REMIND_TMPL_SYS" jdbcType="VARCHAR" property="sRemindTmplSys" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    S_REMIND_ID, S_MENU_FULL_ID, S_REMIND_TITLE, S_REMARK, S_REMIND_CONTROL, S_REMIND_TMPL_SMS, 
+    S_REMIND_TMPL_EMAIL, S_REMIND_TMPL_SYS
+  </sql>
+  <select id="selectByExample" parameterType="com.efunds.pms.riskmanage.model.PmsRemindConfExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from T_PMS_REMIND_CONFIG
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from T_PMS_REMIND_CONFIG
+    where S_REMIND_ID = #{sRemindId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from T_PMS_REMIND_CONFIG
+    where S_REMIND_ID = #{sRemindId,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.efunds.pms.riskmanage.model.PmsRemindConfExample">
+    delete from T_PMS_REMIND_CONFIG
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.efunds.pms.riskmanage.model.PmsRemindConf">
+    insert into T_PMS_REMIND_CONFIG (S_REMIND_ID, S_MENU_FULL_ID, S_REMIND_TITLE, 
+      S_REMARK, S_REMIND_CONTROL, S_REMIND_TMPL_SMS, 
+      S_REMIND_TMPL_EMAIL, S_REMIND_TMPL_SYS)
+    values (#{sRemindId,jdbcType=VARCHAR}, #{sMenuFullId,jdbcType=VARCHAR}, #{sRemindTitle,jdbcType=VARCHAR}, 
+      #{sRemark,jdbcType=VARCHAR}, #{sRemindControl,jdbcType=CHAR}, #{sRemindTmplSms,jdbcType=VARCHAR}, 
+      #{sRemindTmplEmail,jdbcType=VARCHAR}, #{sRemindTmplSys,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.efunds.pms.riskmanage.model.PmsRemindConf">
+    insert into T_PMS_REMIND_CONFIG
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="sRemindId != null">
+        S_REMIND_ID,
+      </if>
+      <if test="sMenuFullId != null">
+        S_MENU_FULL_ID,
+      </if>
+      <if test="sRemindTitle != null">
+        S_REMIND_TITLE,
+      </if>
+      <if test="sRemark != null">
+        S_REMARK,
+      </if>
+      <if test="sRemindControl != null">
+        S_REMIND_CONTROL,
+      </if>
+      <if test="sRemindTmplSms != null">
+        S_REMIND_TMPL_SMS,
+      </if>
+      <if test="sRemindTmplEmail != null">
+        S_REMIND_TMPL_EMAIL,
+      </if>
+      <if test="sRemindTmplSys != null">
+        S_REMIND_TMPL_SYS,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="sRemindId != null">
+        #{sRemindId,jdbcType=VARCHAR},
+      </if>
+      <if test="sMenuFullId != null">
+        #{sMenuFullId,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemindTitle != null">
+        #{sRemindTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemark != null">
+        #{sRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemindControl != null">
+        #{sRemindControl,jdbcType=CHAR},
+      </if>
+      <if test="sRemindTmplSms != null">
+        #{sRemindTmplSms,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemindTmplEmail != null">
+        #{sRemindTmplEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemindTmplSys != null">
+        #{sRemindTmplSys,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.efunds.pms.riskmanage.model.PmsRemindConfExample" resultType="java.lang.Long">
+    select count(*) from T_PMS_REMIND_CONFIG
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update T_PMS_REMIND_CONFIG
+    <set>
+      <if test="record.sRemindId != null">
+        S_REMIND_ID = #{record.sRemindId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sMenuFullId != null">
+        S_MENU_FULL_ID = #{record.sMenuFullId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sRemindTitle != null">
+        S_REMIND_TITLE = #{record.sRemindTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sRemark != null">
+        S_REMARK = #{record.sRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sRemindControl != null">
+        S_REMIND_CONTROL = #{record.sRemindControl,jdbcType=CHAR},
+      </if>
+      <if test="record.sRemindTmplSms != null">
+        S_REMIND_TMPL_SMS = #{record.sRemindTmplSms,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sRemindTmplEmail != null">
+        S_REMIND_TMPL_EMAIL = #{record.sRemindTmplEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sRemindTmplSys != null">
+        S_REMIND_TMPL_SYS = #{record.sRemindTmplSys,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update T_PMS_REMIND_CONFIG
+    set S_REMIND_ID = #{record.sRemindId,jdbcType=VARCHAR},
+      S_MENU_FULL_ID = #{record.sMenuFullId,jdbcType=VARCHAR},
+      S_REMIND_TITLE = #{record.sRemindTitle,jdbcType=VARCHAR},
+      S_REMARK = #{record.sRemark,jdbcType=VARCHAR},
+      S_REMIND_CONTROL = #{record.sRemindControl,jdbcType=CHAR},
+      S_REMIND_TMPL_SMS = #{record.sRemindTmplSms,jdbcType=VARCHAR},
+      S_REMIND_TMPL_EMAIL = #{record.sRemindTmplEmail,jdbcType=VARCHAR},
+      S_REMIND_TMPL_SYS = #{record.sRemindTmplSys,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.efunds.pms.riskmanage.model.PmsRemindConf">
+    update T_PMS_REMIND_CONFIG
+    <set>
+      <if test="sMenuFullId != null">
+        S_MENU_FULL_ID = #{sMenuFullId,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemindTitle != null">
+        S_REMIND_TITLE = #{sRemindTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemark != null">
+        S_REMARK = #{sRemark,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemindControl != null">
+        S_REMIND_CONTROL = #{sRemindControl,jdbcType=CHAR},
+      </if>
+      <if test="sRemindTmplSms != null">
+        S_REMIND_TMPL_SMS = #{sRemindTmplSms,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemindTmplEmail != null">
+        S_REMIND_TMPL_EMAIL = #{sRemindTmplEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="sRemindTmplSys != null">
+        S_REMIND_TMPL_SYS = #{sRemindTmplSys,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where S_REMIND_ID = #{sRemindId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.efunds.pms.riskmanage.model.PmsRemindConf">
+    update T_PMS_REMIND_CONFIG
+    set S_MENU_FULL_ID = #{sMenuFullId,jdbcType=VARCHAR},
+      S_REMIND_TITLE = #{sRemindTitle,jdbcType=VARCHAR},
+      S_REMARK = #{sRemark,jdbcType=VARCHAR},
+      S_REMIND_CONTROL = #{sRemindControl,jdbcType=CHAR},
+      S_REMIND_TMPL_SMS = #{sRemindTmplSms,jdbcType=VARCHAR},
+      S_REMIND_TMPL_EMAIL = #{sRemindTmplEmail,jdbcType=VARCHAR},
+      S_REMIND_TMPL_SYS = #{sRemindTmplSys,jdbcType=VARCHAR}
+    where S_REMIND_ID = #{sRemindId,jdbcType=VARCHAR}
+  </update>
+</mapper>

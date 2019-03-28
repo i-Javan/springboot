@@ -1,23 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="org.movebrick.mybatis.module.mapper.UserMapper">
-	<resultMap id="BaseResultMap" type="org.movebrick.mybatis.module.bean.User">
-		<result column="id" property="id" />
-		<result column="name" property="name" />
-		<result column="age" property="age" />
-		<result column="email" property="email" />
+<mapper
+	namespace="com.movebrick.mybatis.module.mapper.UserMapper">
+	<resultMap id="BaseResultMap"
+		type="com.movebrick.mybatis.module.bean.User">
+		<result column="id" property="id" javaType="String" jdbcType="INTEGER" />
+		<result column="name" property="name" javaType="String" jdbcType="VARCHAR" />
+		<result column="age" property="age" javaType="String" jdbcType="VARCHAR" />
+		<result column="email" property="email" javaType="String" jdbcType="VARCHAR" />
+		<!-- <association property="dept"  javaType="com.movebrick.mybatis.module.bean.Dept"> 
+			<result column="did" property="id" javaType="Integer" jdbcType="INTEGER" /> 
+			<result column="dname" property="dname" javaType="String" jdbcType="VARCHAR" />
+		</association> -->
+		<association property="dept" select="com.movebrick.mybatis.module.mapper.DeptMapper.get" column="did"> 
+		</association>
 	</resultMap>
 
-	<parameterMap id="User" type="org.movebrick.mybatis.module.bean.User"/>
+	<parameterMap id="User"
+		type="com.movebrick.mybatis.module.bean.User" />
 
 	<sql id="Base_Column_List">
 		id,name,age,email
 	</sql>
 
-	<select id="getList" resultMap="BaseResultMap" parameterType="java.lang.String">
+	<select id="getList" resultMap="BaseResultMap"
+		parameterType="java.lang.String">
 		select
 		<include refid="Base_Column_List" />
 		from user
+	</select>
+
+	<select id="getAll" resultMap="BaseResultMap">
+		<![CDATA[ 
+			SELECT
+				u.id,
+				u. NAME,
+				u.age,
+				u.email,
+				d.id AS did,
+				d.dname
+			FROM
+				user u
+			LEFT JOIN dept d ON u.did = d.id
+		 ]]>
 	</select>
 
 </mapper>

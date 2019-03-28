@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.movebrick.mybatis.generator.mapper.TCompanyinfoMapper">
+  <resultMap id="BaseResultMap" type="com.movebrick.mybatis.generator.model.TCompanyinfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="company_name" jdbcType="VARCHAR" property="companyName" />
+    <result column="company_address" jdbcType="VARCHAR" property="companyAddress" />
+    <result column="legal_person" jdbcType="VARCHAR" property="legalPerson" />
+    <result column="credit_code" jdbcType="VARCHAR" property="creditCode" />
+    <result column="create_time" jdbcType="VARCHAR" property="createTime" />
+    <result column="company_type" jdbcType="VARCHAR" property="companyType" />
+    <result column="business_scope" jdbcType="VARCHAR" property="businessScope" />
+    <result column="scope_date" jdbcType="VARCHAR" property="scopeDate" />
+    <result column="lat" jdbcType="VARCHAR" property="lat" />
+    <result column="lng" jdbcType="VARCHAR" property="lng" />
+    <result column="del_flag" jdbcType="INTEGER" property="delFlag" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_id" jdbcType="VARCHAR" property="createId" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, company_name, company_address, legal_person, credit_code, create_time, company_type, 
+    business_scope, scope_date, lat, lng, del_flag, update_time, create_id
+  </sql>
+  <select id="selectByExample" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfoExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_companyinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfoExample">
+    delete from t_companyinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfo">
+    insert into t_companyinfo (id, company_name, company_address, 
+      legal_person, credit_code, create_time, 
+      company_type, business_scope, scope_date, 
+      lat, lng, del_flag, 
+      update_time, create_id)
+    values (#{id,jdbcType=INTEGER}, #{companyName,jdbcType=VARCHAR}, #{companyAddress,jdbcType=VARCHAR}, 
+      #{legalPerson,jdbcType=VARCHAR}, #{creditCode,jdbcType=VARCHAR}, #{createTime,jdbcType=VARCHAR}, 
+      #{companyType,jdbcType=VARCHAR}, #{businessScope,jdbcType=VARCHAR}, #{scopeDate,jdbcType=VARCHAR}, 
+      #{lat,jdbcType=VARCHAR}, #{lng,jdbcType=VARCHAR}, #{delFlag,jdbcType=INTEGER}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{createId,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfo">
+    insert into t_companyinfo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="companyName != null">
+        company_name,
+      </if>
+      <if test="companyAddress != null">
+        company_address,
+      </if>
+      <if test="legalPerson != null">
+        legal_person,
+      </if>
+      <if test="creditCode != null">
+        credit_code,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="companyType != null">
+        company_type,
+      </if>
+      <if test="businessScope != null">
+        business_scope,
+      </if>
+      <if test="scopeDate != null">
+        scope_date,
+      </if>
+      <if test="lat != null">
+        lat,
+      </if>
+      <if test="lng != null">
+        lng,
+      </if>
+      <if test="delFlag != null">
+        del_flag,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="createId != null">
+        create_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="companyName != null">
+        #{companyName,jdbcType=VARCHAR},
+      </if>
+      <if test="companyAddress != null">
+        #{companyAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="legalPerson != null">
+        #{legalPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="creditCode != null">
+        #{creditCode,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="companyType != null">
+        #{companyType,jdbcType=VARCHAR},
+      </if>
+      <if test="businessScope != null">
+        #{businessScope,jdbcType=VARCHAR},
+      </if>
+      <if test="scopeDate != null">
+        #{scopeDate,jdbcType=VARCHAR},
+      </if>
+      <if test="lat != null">
+        #{lat,jdbcType=VARCHAR},
+      </if>
+      <if test="lng != null">
+        #{lng,jdbcType=VARCHAR},
+      </if>
+      <if test="delFlag != null">
+        #{delFlag,jdbcType=INTEGER},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createId != null">
+        #{createId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfoExample" resultType="java.lang.Long">
+    select count(*) from t_companyinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update t_companyinfo
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.companyName != null">
+        company_name = #{record.companyName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.companyAddress != null">
+        company_address = #{record.companyAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="record.legalPerson != null">
+        legal_person = #{record.legalPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="record.creditCode != null">
+        credit_code = #{record.creditCode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createTime != null">
+        create_time = #{record.createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.companyType != null">
+        company_type = #{record.companyType,jdbcType=VARCHAR},
+      </if>
+      <if test="record.businessScope != null">
+        business_scope = #{record.businessScope,jdbcType=VARCHAR},
+      </if>
+      <if test="record.scopeDate != null">
+        scope_date = #{record.scopeDate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lat != null">
+        lat = #{record.lat,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lng != null">
+        lng = #{record.lng,jdbcType=VARCHAR},
+      </if>
+      <if test="record.delFlag != null">
+        del_flag = #{record.delFlag,jdbcType=INTEGER},
+      </if>
+      <if test="record.updateTime != null">
+        update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.createId != null">
+        create_id = #{record.createId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update t_companyinfo
+    set id = #{record.id,jdbcType=INTEGER},
+      company_name = #{record.companyName,jdbcType=VARCHAR},
+      company_address = #{record.companyAddress,jdbcType=VARCHAR},
+      legal_person = #{record.legalPerson,jdbcType=VARCHAR},
+      credit_code = #{record.creditCode,jdbcType=VARCHAR},
+      create_time = #{record.createTime,jdbcType=VARCHAR},
+      company_type = #{record.companyType,jdbcType=VARCHAR},
+      business_scope = #{record.businessScope,jdbcType=VARCHAR},
+      scope_date = #{record.scopeDate,jdbcType=VARCHAR},
+      lat = #{record.lat,jdbcType=VARCHAR},
+      lng = #{record.lng,jdbcType=VARCHAR},
+      del_flag = #{record.delFlag,jdbcType=INTEGER},
+      update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+      create_id = #{record.createId,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <resultMap id="BaseResultMap" type="com.movebrick.mybatis.generator.model.TCompanyinfo">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="company_name" jdbcType="VARCHAR" property="companyName" />
+    <result column="company_address" jdbcType="VARCHAR" property="companyAddress" />
+    <result column="legal_person" jdbcType="VARCHAR" property="legalPerson" />
+    <result column="credit_code" jdbcType="VARCHAR" property="creditCode" />
+    <result column="create_time" jdbcType="VARCHAR" property="createTime" />
+    <result column="company_type" jdbcType="VARCHAR" property="companyType" />
+    <result column="business_scope" jdbcType="VARCHAR" property="businessScope" />
+    <result column="scope_date" jdbcType="VARCHAR" property="scopeDate" />
+    <result column="lat" jdbcType="VARCHAR" property="lat" />
+    <result column="lng" jdbcType="VARCHAR" property="lng" />
+    <result column="del_flag" jdbcType="INTEGER" property="delFlag" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="create_id" jdbcType="VARCHAR" property="createId" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, company_name, company_address, legal_person, credit_code, create_time, company_type, 
+    business_scope, scope_date, lat, lng, del_flag, update_time, create_id
+  </sql>
+  <select id="selectByExample" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfoExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from t_companyinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <delete id="deleteByExample" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfoExample">
+    delete from t_companyinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfo">
+    insert into t_companyinfo (id, company_name, company_address, 
+      legal_person, credit_code, create_time, 
+      company_type, business_scope, scope_date, 
+      lat, lng, del_flag, 
+      update_time, create_id)
+    values (#{id,jdbcType=INTEGER}, #{companyName,jdbcType=VARCHAR}, #{companyAddress,jdbcType=VARCHAR}, 
+      #{legalPerson,jdbcType=VARCHAR}, #{creditCode,jdbcType=VARCHAR}, #{createTime,jdbcType=VARCHAR}, 
+      #{companyType,jdbcType=VARCHAR}, #{businessScope,jdbcType=VARCHAR}, #{scopeDate,jdbcType=VARCHAR}, 
+      #{lat,jdbcType=VARCHAR}, #{lng,jdbcType=VARCHAR}, #{delFlag,jdbcType=INTEGER}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{createId,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfo">
+    insert into t_companyinfo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="companyName != null">
+        company_name,
+      </if>
+      <if test="companyAddress != null">
+        company_address,
+      </if>
+      <if test="legalPerson != null">
+        legal_person,
+      </if>
+      <if test="creditCode != null">
+        credit_code,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="companyType != null">
+        company_type,
+      </if>
+      <if test="businessScope != null">
+        business_scope,
+      </if>
+      <if test="scopeDate != null">
+        scope_date,
+      </if>
+      <if test="lat != null">
+        lat,
+      </if>
+      <if test="lng != null">
+        lng,
+      </if>
+      <if test="delFlag != null">
+        del_flag,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="createId != null">
+        create_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="companyName != null">
+        #{companyName,jdbcType=VARCHAR},
+      </if>
+      <if test="companyAddress != null">
+        #{companyAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="legalPerson != null">
+        #{legalPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="creditCode != null">
+        #{creditCode,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="companyType != null">
+        #{companyType,jdbcType=VARCHAR},
+      </if>
+      <if test="businessScope != null">
+        #{businessScope,jdbcType=VARCHAR},
+      </if>
+      <if test="scopeDate != null">
+        #{scopeDate,jdbcType=VARCHAR},
+      </if>
+      <if test="lat != null">
+        #{lat,jdbcType=VARCHAR},
+      </if>
+      <if test="lng != null">
+        #{lng,jdbcType=VARCHAR},
+      </if>
+      <if test="delFlag != null">
+        #{delFlag,jdbcType=INTEGER},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createId != null">
+        #{createId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.movebrick.mybatis.generator.model.TCompanyinfoExample" resultType="java.lang.Long">
+    select count(*) from t_companyinfo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update t_companyinfo
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.companyName != null">
+        company_name = #{record.companyName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.companyAddress != null">
+        company_address = #{record.companyAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="record.legalPerson != null">
+        legal_person = #{record.legalPerson,jdbcType=VARCHAR},
+      </if>
+      <if test="record.creditCode != null">
+        credit_code = #{record.creditCode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createTime != null">
+        create_time = #{record.createTime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.companyType != null">
+        company_type = #{record.companyType,jdbcType=VARCHAR},
+      </if>
+      <if test="record.businessScope != null">
+        business_scope = #{record.businessScope,jdbcType=VARCHAR},
+      </if>
+      <if test="record.scopeDate != null">
+        scope_date = #{record.scopeDate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lat != null">
+        lat = #{record.lat,jdbcType=VARCHAR},
+      </if>
+      <if test="record.lng != null">
+        lng = #{record.lng,jdbcType=VARCHAR},
+      </if>
+      <if test="record.delFlag != null">
+        del_flag = #{record.delFlag,jdbcType=INTEGER},
+      </if>
+      <if test="record.updateTime != null">
+        update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.createId != null">
+        create_id = #{record.createId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update t_companyinfo
+    set id = #{record.id,jdbcType=INTEGER},
+      company_name = #{record.companyName,jdbcType=VARCHAR},
+      company_address = #{record.companyAddress,jdbcType=VARCHAR},
+      legal_person = #{record.legalPerson,jdbcType=VARCHAR},
+      credit_code = #{record.creditCode,jdbcType=VARCHAR},
+      create_time = #{record.createTime,jdbcType=VARCHAR},
+      company_type = #{record.companyType,jdbcType=VARCHAR},
+      business_scope = #{record.businessScope,jdbcType=VARCHAR},
+      scope_date = #{record.scopeDate,jdbcType=VARCHAR},
+      lat = #{record.lat,jdbcType=VARCHAR},
+      lng = #{record.lng,jdbcType=VARCHAR},
+      del_flag = #{record.delFlag,jdbcType=INTEGER},
+      update_time = #{record.updateTime,jdbcType=TIMESTAMP},
+      create_id = #{record.createId,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

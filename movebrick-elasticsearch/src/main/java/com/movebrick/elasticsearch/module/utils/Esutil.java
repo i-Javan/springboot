@@ -17,7 +17,7 @@ import org.elasticsearch.common.text.Text;
 import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
-import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.SearchHits; 
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
@@ -25,7 +25,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 @Component
-public class Esutil {
+public class Esutil { 
 	public static TransportClient client;
 
 	Esutil() throws Exception {
@@ -45,7 +45,7 @@ public class Esutil {
 		TransportClient client = new PreBuiltTransportClient(settings)
 				// http://172.18.251.122:9200
 				//InetSocketTransportAddress
-				.addTransportAddress(new TransportAddress(InetAddress.getByName("10.28.132.20"), 9300));
+				.addTransportAddress(new TransportAddress(InetAddress.getByName("127.0.0.1"), 9300));
 		// .addTransportAddress(new
 		// InetSocketTransportAddress(InetAddress.getByName("172.18.251.122"), 9200));
 		// on shutdown
@@ -72,7 +72,6 @@ public class Esutil {
 		IndexResponse response = null;
 		try {
 			response = client.prepareIndex(index, type).setSource(map).execute().actionGet();
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
