@@ -10,7 +10,7 @@
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>com.movebrick</groupId>
+		<groupId>com.github.i-javan</groupId>
 		<artifactId>movebrick</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
