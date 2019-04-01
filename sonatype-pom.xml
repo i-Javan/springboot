@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.i-javan</groupId>
 	<artifactId>movebrick</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>pom</packaging>
 	<name>movebrick</name>
 	<description>备注</description>
@@ -20,20 +20,26 @@
 	</parent>
 
 	<modules>
-		 <!-- <module>movebrick-redis</module>  -->
-		 <module>movebrick-mybatis</module> 
-			 <module>movebrick-activeMQ</module> <module>movebrick-mybatisPlus</module> 
-			<module>movebrick-mybatis-annotation</module> <module>movebrick-zookeeper-dubbo-client</module> 
-			<module>movebrick-zookeeper-dubbo-server</module> <module>movebrick-elasticsearch</module> 
-			<module>movebrick-netty-client</module> <module>movebrick-netty-server</module> 
-			<module>movebrick-jdbc</module> <module>movebrick-JdbcTemplate</module> 
-		<module>movebrick-utils</module> 
+		<module>movebrick-redis</module>
+		<module>movebrick-mybatis</module>
+		<module>movebrick-activeMQ</module>
+		<module>movebrick-mybatisPlus</module>
+		<module>movebrick-mybatis-annotation</module>
+		<module>movebrick-zookeeper-dubbo-client</module>
+		<module>movebrick-zookeeper-dubbo-server</module>
+		<module>movebrick-elasticsearch</module>
+		<module>movebrick-netty-client</module>
+		<module>movebrick-netty-server</module>
+		<module>movebrick-jdbc</module>
+		<module>movebrick-JdbcTemplate</module>
+		<module>movebrick-utils</module>
+		<module>movebrick-zookeeper-dubbo-api</module>
 	</modules>
 
 	<developers>
 		<developer>
 			<name>Javan</name>
-			<email>lijiawei.shenzhen@qq.com</email>
+			<email>https://www.jianshu.com/u/ecd4770495d6</email>
 		</developer>
 	</developers>
 

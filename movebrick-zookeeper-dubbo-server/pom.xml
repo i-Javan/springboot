@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>com.github.i-javan</groupId>
 		<artifactId>movebrick</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0</version>
 	</parent>
 
 	<properties>
@@ -26,6 +26,11 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.github.i-javan</groupId>
+			<artifactId>movebrick-zookeeper-dubbo-api</artifactId>
+			<version>1.0</version>
+		</dependency>
 		<!-- Spring Boot Dubbo 依赖 -->
 		<!-- <dependency> <groupId>io.dubbo.springboot</groupId> <artifactId>spring-boot-starter-dubbo</artifactId> 
 			<version>1.0.0</version> </dependency> -->

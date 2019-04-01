@@ -25,5 +25,9 @@ public class DubboController {
 	public User getById() {
 		return dubboService.getById("1");
 	}
-
+	@GetMapping("/sayHello")
+	public String sayHello() {
+		return dubboService.sayHello("SayHello!");
+	}
+	
 }
