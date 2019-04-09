@@ -21,11 +21,13 @@
         <module name="movebrick-mybatis-annotation" />
         <module name="movebrick-redis" />
         <module name="movebrick-activeMQ" />
-        <module name="movebrick-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="movebrick (1)" target="1.8" />
+      <module name="movebrick (2)" target="1.8" />
+      <module name="movebrick (3)" target="1.8" />
+      <module name="movebrick-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
