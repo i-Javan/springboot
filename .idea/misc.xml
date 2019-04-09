@@ -9,6 +9,11 @@
         <option value="$PROJECT_DIR$/sonatype-pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
