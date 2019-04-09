@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="movebrick-mybatisPlus" />
+        <module name="movebrick-mybatis" />
+        <module name="movebrick-jdbc" />
+        <module name="movebrick-netty-server" />
+        <module name="movebrick-netty-client" />
+        <module name="movebrick-rabbitMQ" />
+        <module name="movebrick-JdbcTemplate" />
+        <module name="movebrick-elasticsearch" />
+        <module name="movebrick-zookeeper-dubbo-server" />
+        <module name="movebrick-zookeeper-dubbo-client" />
+        <module name="movebrick-zookeeper-dubbo-api" />
+        <module name="movebrick-mybatis-annotation" />
+        <module name="movebrick-redis" />
+        <module name="movebrick-activeMQ" />
+        <module name="movebrick-utils" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="movebrick-JdbcTemplate" options="-parameters" />
+      <module name="movebrick-activeMQ" options="-parameters" />
+      <module name="movebrick-elasticsearch" options="-parameters" />
+      <module name="movebrick-jdbc" options="-parameters" />
+      <module name="movebrick-mybatis" options="-parameters" />
+      <module name="movebrick-mybatis-annotation" options="-parameters" />
+      <module name="movebrick-mybatisPlus" options="-parameters" />
+      <module name="movebrick-netty-client" options="-parameters" />
+      <module name="movebrick-netty-server" options="-parameters" />
+      <module name="movebrick-rabbitMQ" options="-parameters" />
+      <module name="movebrick-redis" options="-parameters" />
+      <module name="movebrick-utils" options="-parameters" />
+      <module name="movebrick-zookeeper-dubbo-api" options="-parameters" />
+      <module name="movebrick-zookeeper-dubbo-client" options="-parameters" />
+      <module name="movebrick-zookeeper-dubbo-server" options="-parameters" />
+    </option>
+  </component>
+</project>

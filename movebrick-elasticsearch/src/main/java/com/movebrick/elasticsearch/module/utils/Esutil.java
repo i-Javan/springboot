@@ -38,7 +38,7 @@ public class Esutil {
 
 	// client init
 	public static TransportClient clientsart() throws Exception {
-		Settings settings = Settings.builder().put("cluster.name", "cluster").put("client.transport.sniff", false)
+		Settings settings = Settings.builder().put("cluster.name", "my-application").put("client.transport.sniff", false)
 				.build();
 		// Add transport addresses and do something with the client...
 		@SuppressWarnings("resource")
@@ -88,7 +88,7 @@ public class Esutil {
 	 * @param row
 	 * @return
 	 */
-	public static Map<String, Object> search(TransportClient client, String key, String index, String type, int start,
+	public static Map<String, Object> search(String key, String index, String type, int start,
 			int row) {
 
 		// 创建查询索引,要查询的索引库为index
@@ -161,7 +161,7 @@ public class Esutil {
 //		List<Map<String, Object>> list = (List<Map<String, Object>>) search.get("dataList");
 		try {
 			// System.out.println(clientsart()+"连接成功");
-			search(client, "TDH", "file", "fileType", 0, 1);
+		//	search(client, "TDH", "file", "fileType", 0, 1);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
