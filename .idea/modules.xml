@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop.iml" filepath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/movebrick-hadoop01.iml" filepath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/movebrick-hadoop01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movebrick-rabbitMQ/movebrick-rabbitMQ.iml" filepath="$PROJECT_DIR$/movebrick-rabbitMQ/movebrick-rabbitMQ.iml" />
+    </modules>
+  </component>
+</project>
