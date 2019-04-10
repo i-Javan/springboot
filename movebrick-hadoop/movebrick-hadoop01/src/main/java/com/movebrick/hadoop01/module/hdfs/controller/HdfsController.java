@@ -110,7 +110,7 @@ public class HdfsController {
     }
 
     /**
-     * 读取HDFS文件装换成User对象
+     * 读取HDFS文件转换成User对象
      * @param path
      * @return
      * @throws Exception
@@ -215,6 +215,12 @@ public class HdfsController {
         return new BaseReturnVO("copy file success");
     }
 
+    /**
+     * 文件是否存在
+     * @param path
+     * @return
+     * @throws Exception
+     */
     @PostMapping("/existFile")
     public BaseReturnVO existFile(@RequestParam("path") String path) throws Exception {
         boolean isExist = HdfsUtil.existFile(path);

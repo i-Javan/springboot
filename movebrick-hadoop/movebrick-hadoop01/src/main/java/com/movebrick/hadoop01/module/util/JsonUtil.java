@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.movebrick.hadoop01.module.hdfs.model.User;
 import com.movebrick.hadoop01.module.vo.ApiMsgEnum;
 import com.movebrick.hadoop01.module.vo.BaseReturnVO;
 
@@ -265,6 +266,13 @@ public class JsonUtil {
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
         objectMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
+    }
+
+    public static void main(String[] args) {
+        //"{\"username\": \"tom\",\"age\": 25,\"address\": \"BeiJing\"}"
+        String json = "{\"username\": \"tom\",\"age\": 25,\"address\": \"BeiJing\"}";
+        User user = fromJSON(json,  User.class);
+        System.err.println(user);
     }
 }
 

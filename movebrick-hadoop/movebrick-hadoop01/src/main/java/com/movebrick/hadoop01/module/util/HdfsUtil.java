@@ -1,6 +1,5 @@
 package com.movebrick.hadoop01.module.util;
 
-import com.google.common.io.CharStreams;
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
@@ -13,7 +12,6 @@ import javax.annotation.PostConstruct;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URI;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -52,6 +50,7 @@ public class HdfsUtil {
     public static FileSystem getFileSystem() throws Exception {
         // 客户端去操作hdfs时是有一个用户身份的，默认情况下hdfs客户端api会从jvm中获取一个参数作为自己的用户身份 DHADOOP_USER_NAME=hadoop
 //        也可以在构造客户端fs对象时，通过参数传递进去
+        System.setProperty("HADOOP_USER_NAME","hadoop");
         FileSystem fileSystem = FileSystem.get(new URI(hdfsPath), getConfiguration(), hdfsName);
         return fileSystem;
     }
@@ -342,7 +341,8 @@ public class HdfsUtil {
         Path srcPath = new Path(path);
         try {
             FSDataInputStream inputStream = fs.open(srcPath);
-            return IOUtils.readFullyToByteArray(inputStream);
+            //return IOUtils.readFullyToByteArray(inputStream);
+            return null;
         } finally {
             fs.close();
         }
@@ -362,6 +362,7 @@ public class HdfsUtil {
             return null;
         }
         String jsonStr = readFile(path);
+        System.err.println(jsonStr);
         return JsonUtil.fromObject(jsonStr, clazz);
     }
 

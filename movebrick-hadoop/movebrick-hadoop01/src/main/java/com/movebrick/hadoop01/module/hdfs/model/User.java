@@ -1,5 +1,6 @@
 package com.movebrick.hadoop01.module.hdfs.model;
 
+import lombok.Data;
 import org.apache.hadoop.io.Writable;
 
 import java.io.DataInput;
@@ -12,6 +13,7 @@ import java.io.IOException;
  * @author: logan.zou
  * @date: 2018-12-05 15:11
  */
+@Data
 public class User implements Writable {
     private String username;
     private Integer age;
@@ -39,39 +41,6 @@ public class User implements Writable {
         username = input.readUTF();
         age = input.readInt();
         address = input.readUTF();
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                ", age=" + age +
-                ", address='" + address + '\'' +
-                '}';
     }
 }
 
