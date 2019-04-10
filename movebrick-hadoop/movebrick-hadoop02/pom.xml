@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>movebrick-hadoop</artifactId>
+        <groupId>com.github.i-javan</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>movebrick-hadoop02</artifactId>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <!--排除这个slf4j-log4j12-->
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-hdfs</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-mapreduce-client-core</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.bestwu</groupId>
+            <artifactId>ik-analyzers</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+    </dependencies>
+
+    <!--    &lt;!&ndash; 使用阿里云镜像 &ndash;&gt;-->
+    <!--    <repositories>-->
+    <!--        <repository>-->
+    <!--            <id>central</id>-->
+    <!--            <name>aliyun maven</name>-->
+    <!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+    <!--            <layout>default</layout>-->
+    <!--            &lt;!&ndash; 是否开启发布版构件下载 &ndash;&gt;-->
+    <!--            <releases>-->
+    <!--                <enabled>true</enabled>-->
+    <!--            </releases>-->
+    <!--            &lt;!&ndash; 是否开启快照版构件下载 &ndash;&gt;-->
+    <!--            <snapshots>-->
+    <!--                <enabled>false</enabled>-->
+    <!--            </snapshots>-->
+    <!--        </repository>-->
+    <!--    </repositories>-->
+</project>
+
+        <!--hadoop-mapreduce-example：-->
+        <!--        aggregatewordcount 计算输入文件中文字个数的基于聚合的MapReduce程序；-->
+        <!--        aggregatewordlist  生成输入文件中文字个数的统计图的基于聚合的MapReduce程序；-->
+        <!--        grep 计算输入文件中匹配正则表达式的文字个数的MapReduce程序；-->
+        <!--        join 合并排序的平均分割的数据库的作业；-->
+        <!--        pentomino 解决五格拼板问题的分块分层的MapReduce程序；-->
+        <!--        pi 使用蒙地卡罗法计算pi的MapReduce程序；-->
+        <!--        Randomtextwriter 在一个节点上写10G随机文本的MapReduce程序；-->
+        <!--        randomwriter 在每个节点上写10G随机数据的MapReduce程序；-->
+        <!--        sleep 在每个Map和Reduce作业中休憩的程序；-->
+        <!--        sort 排序随机写入器生成的数据的MapReduce程序；-->
+        <!--        sudoku 一个九宫格游戏的解决方案；-->
+        <!--        wordcount 在输入文件中统计文字个的统计器。-->

@@ -12,6 +12,7 @@
         <module name="movebrick-jdbc" />
         <module name="movebrick-netty-server" />
         <module name="movebrick-netty-client" />
+        <module name="movebrick-hadoop02" />
         <module name="movebrick-JdbcTemplate" />
         <module name="movebrick-elasticsearch" />
         <module name="movebrick-zookeeper-dubbo-server" />
@@ -23,6 +24,9 @@
         <module name="movebrick-rabbitMQ" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="movebrick-hadoop02" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -30,6 +34,7 @@
       <module name="movebrick-activeMQ" options="-parameters" />
       <module name="movebrick-elasticsearch" options="-parameters" />
       <module name="movebrick-hadoop01" options="-parameters" />
+      <module name="movebrick-hadoop02" options="-parameters" />
       <module name="movebrick-jdbc" options="-parameters" />
       <module name="movebrick-mybatis" options="-parameters" />
       <module name="movebrick-mybatis-annotation" options="-parameters" />
