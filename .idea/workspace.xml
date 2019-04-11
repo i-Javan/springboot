@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a23b8d77-090c-45b4-b765-2d9fb4324b62" name="Default Changelist" comment="add by javan 20190410 添加hadoop理论">
-      <change afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/三国演义无换行版.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="a23b8d77-090c-45b4-b765-2d9fb4324b62" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WordCountReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WordCountReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-elasticsearch/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/movebrick-hadoop02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/movebrick-hadoop02.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/movebrick-netty-server/target/" />
@@ -31,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/movebrick-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/movebrick-hadoop/target/" />
     <ignored path="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/" />
+    <ignored path="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-773">
-              <caret line="137" column="56" selection-start-line="137" selection-start-column="56" selection-end-line="137" selection-end-column="56" />
+            <state relative-caret-position="-1392">
+              <caret line="124" column="57" lean-forward="true" selection-start-line="124" selection-start-column="57" selection-end-line="124" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#957#958#0" expanded="true" />
@@ -63,10 +58,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="124" column="17" lean-forward="true" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="57" column="39" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="39" />
+            <state relative-caret-position="148">
+              <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,6 +200,17 @@
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="C:\Users\MMJ\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
     <option name="enabledProfiles">
       <list>
         <option value="release" />
@@ -204,14 +219,19 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-95" />
-    <option name="y" value="43" />
-    <option name="width" value="1920" />
+    <option name="x" value="1912" />
+    <option name="y" value="30" />
+    <option name="width" value="1905" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -431,7 +451,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -534,6 +554,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="movebrick [clean,deploy,-P,releease...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="deploy" />
+                <option value="-P" />
+                <option value="releease" />
+                <option value="-Dgpg.passphrase=lijiawei" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Test01.application" />
+      <item itemvalue="JUnit.Test01.curd" />
+      <item itemvalue="JUnit.Test01.getFileSystem" />
+      <item itemvalue="JUnit.Test01.getObj" />
+      <item itemvalue="JUnit.Test01.main" />
+      <item itemvalue="Maven.movebrick [clean,deploy,-P,releease...]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Test01.application" />
@@ -560,7 +617,7 @@
       <workItem from="1554802156269" duration="329000" />
       <workItem from="1554856327178" duration="3741000" />
       <workItem from="1554860995127" duration="10973000" />
-      <workItem from="1554943354616" duration="15901000" />
+      <workItem from="1554943354616" duration="18996000" />
     </task>
     <task id="LOCAL-00001" summary="add by javan 20190409 添加es和hadoop">
       <created>1554784680353</created>
@@ -604,13 +661,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554876414714</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add by javan 20190411 添加hadoop Test">
+      <created>1554968111560</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554968111561</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test01_application - 2019.04.11 at 14h 48m 59s.xml">
-      <configuration name="Test01.application" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test01_application - 2019.04.11 at 14h 56m 45s.xml">
       <configuration name="Test01.application" configurationId="JUnit" />
     </history-entry>
@@ -638,9 +699,12 @@
     <history-entry file="Test01_application - 2019.04.11 at 15h 26m 01s.xml">
       <configuration name="Test01.application" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test01_application - 2019.04.11 at 16h 42m 42s.xml">
+      <configuration name="Test01.application" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43099000" />
+    <option name="totallyTimeSpent" value="46194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,10 +716,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -663,7 +727,7 @@
       <window_info id="Hadoop FileSystem" order="5" weight="0.33042896" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36260623" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17280453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31728044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,15 +737,15 @@
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.26742628" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.26742628" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
@@ -722,7 +786,8 @@
     <MESSAGE value="update by javan 20190409 优化配置" />
     <MESSAGE value="add by javan 20190410 适应内网2.8.5版本的hadoop" />
     <MESSAGE value="add by javan 20190410 添加hadoop理论" />
-    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190410 添加hadoop理论" />
+    <MESSAGE value="add by javan 20190411 添加hadoop Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190411 添加hadoop Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -948,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/service/MapReduceService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -1070,10 +1128,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-773">
-          <caret line="137" column="56" selection-start-line="137" selection-start-column="56" selection-end-line="137" selection-end-column="56" />
+        <state relative-caret-position="-1392">
+          <caret line="124" column="57" lean-forward="true" selection-start-line="124" selection-start-column="57" selection-end-line="124" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#957#958#0" expanded="true" />
@@ -1088,13 +1156,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="124" column="17" lean-forward="true" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
         </state>
       </provider>
     </entry>
