@@ -4,6 +4,8 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.wltea.analyzer.core.IKSegmenter;
 import org.wltea.analyzer.core.Lexeme;
 
@@ -20,6 +22,8 @@ public class WordCountMap extends Mapper<Object, Text, Text, IntWritable> {
     private final static IntWritable one = new IntWritable(1);
     private Text word = new Text();
 
+    final static Logger logger = LoggerFactory.getLogger(WordCountMap.class);
+
     /**
      * 读取 sgyy.txt或者dpcq.txt 内容格式为小说内容
      * @param key 默认情况下，是mapreduce所读取到的一行文本的起始偏移量
@@ -30,6 +34,8 @@ public class WordCountMap extends Mapper<Object, Text, Text, IntWritable> {
      */
     @Override
     public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
+        //logger.info("===== WordCountMap ====={},{},{}",key,value,context);
+        System.err.println("="+key+","+value+","+context);
         // 防止中文乱码
         String line = new String(value.getBytes(), 0, value.getLength(), "UTF-8").trim();
         if (StringUtils.isNotEmpty(line)) {
@@ -47,6 +53,7 @@ public class WordCountMap extends Mapper<Object, Text, Text, IntWritable> {
             IKSegmenter ikSegmenter = new IKSegmenter(reader, true);
             Lexeme lexeme;
             while ((lexeme = ikSegmenter.next()) != null) {
+                System.err.println("分词器:"+lexeme.getLexemeText()+","+word+","+one);
                 word.set(lexeme.getLexemeText());
                 context.write(word, one);
             }

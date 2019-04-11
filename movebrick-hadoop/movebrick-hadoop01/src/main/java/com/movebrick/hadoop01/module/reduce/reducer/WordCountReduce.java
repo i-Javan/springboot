@@ -53,7 +53,7 @@ public class WordCountReduce extends Reducer<Text,IntWritable,Text,IntWritable> 
 
         // 使用分词器，内容已经被统计好了，直接输出即可
         if (textList.contains(keyStr)) {
-            System.out.println("============ " + keyStr + " 统计分词为: " + sum + " ============");
+            System.err.println("============ " + keyStr + " 统计分词为: " + sum + " ============");
         }
     }
 }

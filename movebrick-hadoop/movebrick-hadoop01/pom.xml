@@ -125,6 +125,43 @@
 <!--        发送排序的数据到某一计算机。-->
 <!--        为每个作业编写的调试日志。-->
 
+<!--HDFS有两种节点类型：NameNode和DataNode，以master/slaver模式运行。-->
+<!--    NameNode：-->
+<!--        管理文件系统的命名空间。维护整个文件系统树和这个树内的所有文件和索引目录（所有信息以两种方式持久化保存在本地磁盘：命名-->
+<!--        空间镜像和编辑日志）。如果丢失NameNode，整个文件系统将无法使用，因为无法知道如果通过数据节点重建文件。NameNode记录着每-->
+<!--        个文件中各个块所在数据节点的位置信息，但不会持久化存储这些信息，因为这些信息在DataNode启动的时候会从DataNode中重建。-->
+<!--    DataNode：-->
+<!--        保存Block（即：负责把HDFS数据库写在本地文件系统），每个Block对应一个NameNode信息文件；启动DataNode时，会向NameNode-->
+<!--        汇报Block信息；定期发送心跳给NameNode，实现通信。-->
+<!--    SecondNameNode：-->
+<!--        监控HDFS状态的辅助后台程序。类似于NameNode，每个集群都有一个SecondNameNode，且单独部署在一个单独的服务器-->
+<!--        上。与同于NameNode的时，SecondNameNode不接受/记录任何实时数据变化。但是会周期性的将EditsLog文件中记录对HDFS的操作合-->
+<!--        并到一个FsImage文件，然后清空EditsLog文件。当NameNode重启时就会加载该FsImage文件。-->
+<!--    SecondNameNode的作用：-->
+<!--        （1）如果没有SecondNameNode，NameNode的每次启动则会花费太长的时间。周期性的合并能减少重启时花费的时间。-->
+<!--        （2）可以将应为NameNode宕机而造成的数据丢失的风险尽可能降低（因为SecondNodeName合并是周期性的，所以难免会丢失一些最新-->
+<!--        的数据信息）。-->
 
+<!--        JobTracker 对应于 NameNode-->
+<!--        TaskTracker 对应于 DataNode-->
+<!--        NameNode和DataNode是只对数据存放而言的-->
+<!--        JobTracker和TaskTracker是对应于MapReduce执行而言-->
 
+<!--一、MapReduce的容错性：-->
+<!--        1， map或reduce运行时因代码原因而抛出的异常。在这种情况下，子进程JVM会在进程退出前向TaskTracker父进程发送错误报告。在-->
+<!--        日志中记录该错误。-->
+<!--        2， TaskTracker失败：有TaskTracker运行缓慢或崩溃而导致无法向JobTracker发送心跳，JobTracker会将该TaskTracker从任务调-->
+<!--        度池中移除，并重新调度该任务。-->
+<!--        3， JobTracker失败：这种失败发生的概率很小；但一旦发生导致的后果最为严重，因此通过Zookeeper协调机制来降低这种问题发生的-->
+<!--        概率。-->
 
+<!--二、HDFS的容错性-->
+<!--        NameNode容错性：-->
+<!--            a) SecondeNameNode可以解决NameNode单点失败的情况。但是该方法存在以下三点问题：1)必须通过人工的方式寻找并拷贝-->
+<!--                SecondNameNode中的镜像文件，手动开启NameNode，无法自动化完成。2)NameNode失败期间，任何人无法以任何形式访问、操作-->
+<!--                HDFS中的文件。3)SecondNameNode的镜像文件保存有时间差，恢复时会存在数据丢失。-->
+<!--            b)通过Zookeeper实现NameNode备份。在HDFS系统中配置多个NameNode，并向Zookeeper注册自己的存在。即可通过Zookeeper-->
+<!--                的Watch和Dispatch实现各NameNode之间的协同。-->
+<!--        DataNode容错性：-->
+<!--            DataNode是以数据块作为容错单元，默认情况下，每个数据块会被备份在三分，分别存在不同的DataNode上。当一个数据块访问-->
+<!--            失效，则会从备份的DataNode中选取一个，并备份该数据块，以保证数据块的最低备份标准。-->
