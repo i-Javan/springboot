@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a23b8d77-090c-45b4-b765-2d9fb4324b62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-elasticsearch/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/dpcq.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/friends.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/groupOrder.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/groupSort.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/hlm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/order.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/product.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/sgyy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/sort.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/staff.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/user.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/weibo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/data/weibo2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/classes/log4j.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/movebrick-netty-server/target/" />
@@ -64,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="137" column="56" selection-start-line="137" selection-start-column="56" selection-end-line="137" selection-end-column="56" />
+            <state relative-caret-position="300">
+              <caret line="106" column="61" lean-forward="true" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,7 +219,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
@@ -483,7 +466,7 @@
       <workItem from="1554856327178" duration="3741000" />
       <workItem from="1554860995127" duration="10973000" />
       <workItem from="1554943354616" duration="21144000" />
-      <workItem from="1555029898685" duration="247000" />
+      <workItem from="1555029898685" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="add by javan 20190409 添加es和hadoop">
       <created>1554784680353</created>
@@ -541,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554973146886</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add by javan 20190412 添加eclipse配置">
+      <created>1555030189781</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555030189781</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -577,7 +567,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48589000" />
+    <option name="totallyTimeSpent" value="49841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,7 +579,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25871313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -659,7 +650,8 @@
     <MESSAGE value="add by javan 20190410 适应内网2.8.5版本的hadoop" />
     <MESSAGE value="add by javan 20190410 添加hadoop理论" />
     <MESSAGE value="add by javan 20190411 添加hadoop Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190411 添加hadoop Test" />
+    <MESSAGE value="add by javan 20190412 添加eclipse配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190412 添加eclipse配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,18 +1011,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="137" column="56" selection-start-line="137" selection-start-column="56" selection-end-line="137" selection-end-column="56" />
+        <state relative-caret-position="300">
+          <caret line="106" column="61" lean-forward="true" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
           </folding>
         </state>
       </provider>
