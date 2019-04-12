@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movebrick-mybatisPlus" />
+        <module name="movebrick-activeMQ" />
         <module name="movebrick-mybatis" />
         <module name="movebrick-jdbc" />
         <module name="movebrick-netty-server" />
         <module name="movebrick-netty-client" />
-        <module name="movebrick-rabbitMQ" />
         <module name="movebrick-hadoop02" />
         <module name="movebrick-JdbcTemplate" />
         <module name="movebrick-elasticsearch" />
@@ -21,7 +21,7 @@
         <module name="movebrick-zookeeper-dubbo-api" />
         <module name="movebrick-mybatis-annotation" />
         <module name="movebrick-redis" />
-        <module name="movebrick-activeMQ" />
+        <module name="movebrick-rabbitMQ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
