@@ -16,24 +16,37 @@ import java.util.Iterator;
  * @author: logan.zou
  * @date: 2018-12-07 13:49
  */
-public class WeatherReduce  extends MapReduceBase implements Reducer<Text, IntWritable, Text, IntWritable> {
-    @Override
-    public void reduce(Text key, Iterator<IntWritable> values, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
-        int maxValue = Integer.MIN_VALUE;
-        StringBuffer sb = new StringBuffer();
+public class WeatherReduce extends MapReduceBase implements Reducer<Text, IntWritable, Text, IntWritable> {
+    //    @Override
+//    public void reduce(Text key, Iterator<IntWritable> values, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
+//        int maxValue = Integer.MIN_VALUE;
+//        StringBuffer sb = new StringBuffer();
+//
+//        // 取values温度的最大值
+//        while (values.hasNext()) {
+//            int tmp = values.next().get();
+//            maxValue = Math.max(maxValue, tmp);
+//            sb.append(tmp).append(", ");
+//
+//            output.collect(key, new IntWritable(maxValue));
+//        }
+//        // 打印输入样本，如 2000， 15 ，99， 12
+//        System.out.println("==== Before Reduce ==== " + key + ", " + sb.toString());
+//        // 打印输出样本
+//        System.out.println("==== After Reduce ==== " + key + ", " + sb.toString());
+//
+//    }
+//Reduce function
+    public void reduce(Text key, Iterator<IntWritable> values,
+                       OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
+        int maxavg = 30;
+        int val = Integer.MIN_VALUE;
 
-        // 取values温度的最大值
         while (values.hasNext()) {
-            int tmp = values.next().get();
-            maxValue = Math.max(maxValue, tmp);
-            sb.append(tmp).append(", ");
-
-            output.collect(key, new IntWritable(maxValue));
+            if ((val = values.next().get()) > maxavg) {
+                output.collect(key, new IntWritable(val));
+            }
         }
-        // 打印输入样本，如 2000， 15 ，99， 12
-        System.out.println("==== Before Reduce ==== " + key + ", " + sb.toString());
-        // 打印输出样本
-        System.out.println("==== After Reduce ==== " + key + ", " + sb.toString());
 
     }
 }

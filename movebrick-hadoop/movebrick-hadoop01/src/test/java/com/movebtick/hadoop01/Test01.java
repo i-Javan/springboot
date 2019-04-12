@@ -6,8 +6,6 @@ import java.net.URI;
 
 import com.movebrick.hadoop01.module.reduce.mapper.WordCountMap;
 import com.movebrick.hadoop01.module.reduce.reducer.WordCountReduce;
-import com.movebrick.hadoop01.module.util.HdfsUtil;
-import net.bytebuddy.asm.Advice;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -211,13 +209,15 @@ public class Test01 extends Test02 {
     @Test
     public void curd() throws Exception {
         // 服务器文件
-        Path serverPath = new Path("/input/三国演义无换行版.txt");
+        Path serverPath = new Path("/input/groupSort1.txt");
         // 原始文件
-        Path localhostDataPath = new Path("D:\\work space\\git-springboot\\movebrick-hadoop\\movebrick-hadoop01\\src\\main\\resources\\data\\三国演义无换行版.txt");
+        Path localhostDataPath = new Path("D:\\work space\\git-springboot\\movebrick-hadoop\\movebrick-hadoop01\\src\\main\\resources\\data\\groupSort1.txt");
 
         FileSystem fs = getFileSystem();
         Configuration conf = getConfiguration();
         fs.copyFromLocalFile(false,localhostDataPath, serverPath);
         System.err.println("从本地复制文件到服务器:" + fs.exists(serverPath));
     }
+
+
 }

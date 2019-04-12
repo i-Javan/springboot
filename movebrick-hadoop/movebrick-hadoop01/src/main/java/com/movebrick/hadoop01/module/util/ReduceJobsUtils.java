@@ -11,7 +11,6 @@ import com.movebrick.hadoop01.module.reduce.reducer.*;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.JobConf;
@@ -131,7 +130,7 @@ public class ReduceJobsUtils {
         JobConf jobConf = new JobConf(getConfiguration());
         jobConf.setJobName(jobName);
         jobConf.setOutputKeyClass(Text.class);
-        jobConf.setOutputValueClass(LongWritable.class);
+        jobConf.setOutputValueClass(IntWritable.class);
         jobConf.setMapperClass(WeatherMap.class);
         jobConf.setReducerClass(WeatherReduce.class);
         jobConf.setInputFormat(TextInputFormat.class);

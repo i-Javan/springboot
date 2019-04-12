@@ -9,6 +9,13 @@
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupOrder.txt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/order.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/product.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/sort.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/staff.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/weibo.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/weibo2.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/三国演义.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/红楼梦.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-mybatis" charset="UTF-8" />
