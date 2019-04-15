@@ -32,7 +32,7 @@
 		<module>movebrick-netty-server</module>
 		<module>movebrick-jdbc</module>
 		<module>movebrick-JdbcTemplate</module>
-		<!-- <module>movebrick-utils</module> -->
+		<module>movebrick-utils</module>
 		<module>movebrick-zookeeper-dubbo-api</module>
 		<module>movebrick-rabbitMQ</module>
 		<module>movebrick-hadoop</module>

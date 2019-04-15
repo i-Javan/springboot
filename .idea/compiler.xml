@@ -23,6 +23,7 @@
         <module name="movebrick-zookeeper-dubbo-api" />
         <module name="movebrick-redis" />
         <module name="movebrick-rabbitMQ" />
+        <module name="movebrick-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +46,7 @@
       <module name="movebrick-netty-server" options="-parameters" />
       <module name="movebrick-rabbitMQ" options="-parameters" />
       <module name="movebrick-redis" options="-parameters" />
+      <module name="movebrick-utils" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-api" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-client" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-server" options="-parameters" />
