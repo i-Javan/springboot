@@ -7,21 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movebrick-mybatisPlus" />
+        <module name="movebrick-dataStructure" />
+        <module name="movebrick-activeMQ" />
         <module name="movebrick-mybatis" />
         <module name="movebrick-jdbc" />
         <module name="movebrick-netty-server" />
         <module name="movebrick-netty-client" />
-        <module name="movebrick-rabbitMQ" />
         <module name="movebrick-hadoop02" />
-        <module name="movebrick-JdbcTemplate" />
+        <module name="movebrick-hadoop01" />
         <module name="movebrick-elasticsearch" />
         <module name="movebrick-zookeeper-dubbo-server" />
         <module name="movebrick-zookeeper-dubbo-client" />
-        <module name="movebrick-hadoop01" />
-        <module name="movebrick-zookeeper-dubbo-api" />
+        <module name="movebrick-JdbcTemplate" />
         <module name="movebrick-mybatis-annotation" />
+        <module name="movebrick-zookeeper-dubbo-api" />
         <module name="movebrick-redis" />
-        <module name="movebrick-activeMQ" />
+        <module name="movebrick-rabbitMQ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="movebrick-JdbcTemplate" options="-parameters" />
       <module name="movebrick-activeMQ" options="-parameters" />
+      <module name="movebrick-dataStructure" options="-parameters" />
       <module name="movebrick-elasticsearch" options="-parameters" />
       <module name="movebrick-hadoop01" options="-parameters" />
       <module name="movebrick-hadoop02" options="-parameters" />

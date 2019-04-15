@@ -4,8 +4,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URI;
 
-import com.movebrick.hadoop01.module.reduce.mapper.WordCountMap;
-import com.movebrick.hadoop01.module.reduce.reducer.WordCountReduce;
+import com.movebrick.datastructure.hadoop01.module.reduce.mapper.WordCountMap;
+import com.movebrick.datastructure.hadoop01.module.reduce.reducer.WordCountReduce;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -23,7 +23,7 @@ import javax.annotation.PostConstruct;
 
 import org.apache.hadoop.conf.Configuration;
 import org.springframework.util.StringUtils;
-import com.movebrick.hadoop01.Hadoop01Appcaliction;
+import com.movebrick.datastructure.hadoop01.Hadoop01Appcaliction;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 

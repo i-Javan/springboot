@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-JdbcTemplate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-activeMQ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-dataStructure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01" charset="UTF-8" />

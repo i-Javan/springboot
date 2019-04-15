@@ -4,18 +4,144 @@
     <bookmark url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml" line="16" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a23b8d77-090c-45b4-b765-2d9fb4324b62" name="Default Changelist" comment="add by javan 20190412 打卡存档">
-      <change afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort2.txt" afterDir="false" />
+    <list default="true" id="a23b8d77-090c-45b4-b765-2d9fb4324b62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/datastructure/activeMQ/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/array/TArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/OneWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/server/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/server/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/redis/JedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/datastructure/dubbo/module/service/DubboService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/datastructure/dubbo/module/service/DubboService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/activeMQ/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-rabbitMQ/src/main/java/com/movebrick/datastructure/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/activeMQ/activemq/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/datastructure/activeMQ/activemq/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/activeMQ/activemq/ConsumerQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/datastructure/activeMQ/activemq/ConsumerQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/activeMQ/activemq/ConsumerTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/datastructure/activeMQ/activemq/ConsumerTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/activeMQ/activemq/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/datastructure/activeMQ/activemq/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/activeMQ/config/ActiveMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/datastructure/activeMQ/config/ActiveMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/activeMQ/controller/ActiveMQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-activeMQ/src/main/java/com/movebrick/datastructure/activeMQ/controller/ActiveMQController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/elasticsearch/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/datastructure/jdbc/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/elasticsearch/module/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/elasticsearch/module/controller/EsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/controller/EsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/elasticsearch/module/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/elasticsearch/module/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/elasticsearch/module/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/elasticsearch/module/utils/Esutil.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/utils/Esutil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/logs/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/logs/log4j-application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeatherMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeatherMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeatherReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeatherReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/Hadoop01Appcaliction.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/Hadoop01Appcaliction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/hdfs/config/HdfsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/hdfs/config/HdfsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/hdfs/controller/HdfsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/hdfs/controller/HdfsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/hdfs/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/hdfs/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/hdfs/service/HdfsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/hdfs/service/HdfsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/mapreduce/GroupSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/mapreduce/GroupSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/mapreduce/SearchStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/mapreduce/SearchStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/GroupOrderComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/bean/GroupOrderComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/StaffProvincePartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/bean/StaffProvincePartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/WeiboInputFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/bean/WeiboInputFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/WeiboRecordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/bean/WeiboRecordReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/controller/MapReduceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/CounterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/CounterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/FriendsMapper1.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/FriendsMapper1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/FriendsMapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/FriendsMapper2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/GroupOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/GroupOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/JoinMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/JoinMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/SortMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/SortMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/StaffMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/StaffMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeatherMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/WeatherMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeiboMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/WeiboMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/WordCountMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/GroupOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/model/GroupOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/GroupSortModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/model/GroupSortModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/model/OrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/SortModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/model/SortModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/StaffModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/model/StaffModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/Weibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/model/Weibo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/FriendsReduce1.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/FriendsReduce1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/FriendsReduce2.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/FriendsReduce2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/GroupOrderReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/GroupOrderReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/JoinReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/JoinReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/SortReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/SortReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/StaffReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/StaffReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/StoryCombiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/StoryCombiner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeatherReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/WeatherReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeiboReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/WeiboReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WordCountReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/WordCountReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/service/MapReduceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/service/MapReduceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/HdfsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/HdfsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/ReduceJobsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/ReduceJobsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/SortUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/SortUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/vo/ApiMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/vo/ApiMsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/vo/BaseReturnVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/vo/BaseReturnVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-api/src/main/java/com/movebrick/datastructure/dubbo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/mybatisAn/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/mybatisAn/module/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/mybatisAn/module/controller/MybatisAnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/controller/MybatisAnController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/mybatisAn/module/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/mybatisAn/module/server/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/mybatisAn/module/server/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/test/java/com/movebrick/mybatisAn/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/test/java/com/movebrick/datastructure/mybatisAn/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/generator/mapper/TCompanyinfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/generator/mapper/TCompanyinfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/generator/mapper/TdeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/generator/mapper/TdeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/generator/model/TCompanyinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/generator/model/TCompanyinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/generator/model/TCompanyinfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/generator/model/TCompanyinfoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/generator/model/Tdept.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/generator/model/Tdept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/generator/model/TdeptExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/generator/model/TdeptExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/bean/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/bean/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/controller/MybatisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/controller/MybatisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/mapper/DeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/server/DeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/server/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/server/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/server/impl/DeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/mybatis/module/server/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/java/com/movebrick/datastructure/mybatis/module/server/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/resources/generator/mapper/TCompanyinfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/resources/generator/mapper/TCompanyinfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/resources/generator/mapper/TdeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/resources/generator/mapper/TdeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/resources/mapper/deptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/resources/mapper/deptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis/src/main/resources/mapper/userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis/src/main/resources/mapper/userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-rabbitMQ/src/main/java/com/movebrick/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/controller/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/redis/JedisUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/redis/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/redis/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/test/java/com/movebrick/redis/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/test/java/com/movebrick/datastructure/redis/JedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/test/java/com/movebrick/redis/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/test/java/com/movebrick/datastructure/redis/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-api/src/main/java/com/movebrick/dubbo/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-api/src/main/java/com/movebrick/dubbo/module/api/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-api/src/main/java/com/movebrick/datastructure/dubbo/module/api/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/dubbo/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/datastructure/dubbo/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/dubbo/module/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/datastructure/dubbo/module/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/dubbo/module/controller/DubboController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/datastructure/dubbo/module/controller/DubboController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/dubbo/module/service/DubboClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/datastructure/dubbo/module/service/DubboClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/java/com/movebrick/dubbo/module/service/DubboService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/dubbo/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/datastructure/dubbo/ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/dubbo/module/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/datastructure/dubbo/module/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/dubbo/module/controller/DubboController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/datastructure/dubbo/module/controller/DubboController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/dubbo/module/service/DubboService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/dubbo/module/service/impl/DubboServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/src/main/java/com/movebrick/datastructure/dubbo/module/service/impl/DubboServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/movebrick-netty-server/target/" />
@@ -37,6 +163,7 @@
     <ignored path="$PROJECT_DIR$/movebrick-hadoop/target/" />
     <ignored path="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/target/" />
     <ignored path="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/target/" />
+    <ignored path="$PROJECT_DIR$/movebrick-dataStructure/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,28 +190,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/pom.xml">
+        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/DateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3192">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
+            <state relative-caret-position="152">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/utils/Esutil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="218" selection-start-line="217" selection-end-line="218" />
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,28 +211,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/Hadoop01Appcaliction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test03.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeatherMap.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="247">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,37 +232,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/MapTask.class">
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3439">
-              <caret line="255" selection-start-line="255" selection-end-line="255" />
+            <state relative-caret-position="95">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort1.txt">
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/controller/EsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="58" selection-start-column="58" selection-end-column="58" />
+            <state relative-caret-position="76">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeatherReduce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeiboMapper.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" selection-start-line="11" selection-end-line="12" />
+            <state relative-caret-position="152">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -196,17 +311,24 @@
       <find>output</find>
       <find>Long</find>
       <find>Before</find>
-      <find />
-      <find />
     </findStrings>
     <replaceStrings>
-      <replace />
-      <replace />
       <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+          <option name="moduleName" value="movebrick-dataStructure" />
+          <option name="title" value="movebrick-dataStructure (Bundled Groovy 2.4.15)" />
+        </Entry>
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -235,6 +357,16 @@
         <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeatherMap.java" />
         <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/pom.xml" />
         <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/array/TArray.java" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/T.java" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/Node.java" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/OneWay.java" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No1.java" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No2.java" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No3.java" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No4.java" />
+        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No5.java" />
+        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/ReduceJobsUtils.java" />
       </list>
     </option>
   </component>
@@ -265,18 +397,12 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="movebrick-hadoop01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="movebrick-elasticsearch" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="movebrick-hadoop01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="movebrick-hadoop01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="movebrick-elasticsearch" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -284,9 +410,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
-    <option name="y" value="77" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -306,34 +432,25 @@
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -341,146 +458,105 @@
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
-              <item name="reducer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-elasticsearch" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -497,17 +573,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.movebtick.hadoop01" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work space\git-springboot\movebrick-hadoop\movebrick-hadoop01\src\main\resources\data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.movebtick.hadoop01" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work space\git-springboot\movebrick-hadoop\movebrick-hadoop01\src\main\resources\data" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.movebrick.datastructure.linkedList" />
+      <recent name="com.movebtick.hadoop01" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -522,13 +599,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test01.curd">
-    <configuration name="Hadoop01Appcaliction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movebrick.hadoop01.Hadoop01Appcaliction" />
-      <module name="movebrick-hadoop01" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.datastructure.elasticsearch.Application" />
+      <module name="movebrick-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movebrick.hadoop01.*" />
+          <option name="PATTERN" value="com.movebrick.datastructure.elasticsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.datastructure.compute.No2" />
+      <module name="movebrick-dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movebrick.datastructure.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.datastructure.compute.No3" />
+      <module name="movebrick-dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movebrick.datastructure.compute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="No4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.datastructure.compute.No4" />
+      <module name="movebrick-dataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.movebrick.datastructure.compute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -547,54 +663,6 @@
       <option name="PACKAGE_NAME" value="com.movebtick.hadoop01" />
       <option name="MAIN_CLASS_NAME" value="com.movebtick.hadoop01.Test01" />
       <option name="METHOD_NAME" value="application" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01.curd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movebrick-hadoop01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movebtick.hadoop01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.movebtick.hadoop01" />
-      <option name="MAIN_CLASS_NAME" value="com.movebtick.hadoop01.Test01" />
-      <option name="METHOD_NAME" value="curd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01.getFileSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movebrick-hadoop01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movebtick.hadoop01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.movebtick.hadoop01" />
-      <option name="MAIN_CLASS_NAME" value="com.movebtick.hadoop01.Test01" />
-      <option name="METHOD_NAME" value="getFileSystem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movebrick-hadoop01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movebtick.hadoop01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.movebtick.hadoop01" />
-      <option name="MAIN_CLASS_NAME" value="com.movebtick.hadoop01.Test01" />
-      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -630,20 +698,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Hadoop01Appcaliction" />
+      <item itemvalue="Application.No2" />
+      <item itemvalue="Application.No3" />
+      <item itemvalue="Application.No4" />
+      <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.Test01.application" />
-      <item itemvalue="JUnit.Test01.curd" />
-      <item itemvalue="JUnit.Test01.getFileSystem" />
-      <item itemvalue="JUnit.Test01.main" />
       <item itemvalue="Maven.movebrick [clean,deploy,-P,releease...]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test01.curd" />
-        <item itemvalue="Application.Hadoop01Appcaliction" />
-        <item itemvalue="JUnit.Test01.main" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.Test01.application" />
-        <item itemvalue="JUnit.Test01.getFileSystem" />
+        <item itemvalue="Application.No4" />
+        <item itemvalue="Application.No3" />
+        <item itemvalue="Application.No2" />
       </list>
     </recent_temporary>
   </component>
@@ -665,6 +733,9 @@
       <workItem from="1554860995127" duration="10973000" />
       <workItem from="1554943354616" duration="21144000" />
       <workItem from="1555029898685" duration="18070000" />
+      <workItem from="1555293654514" duration="5222000" />
+      <workItem from="1555303553641" duration="11741000" />
+      <workItem from="1555319989855" duration="276000" />
     </task>
     <task id="LOCAL-00001" summary="add by javan 20190409 添加es和hadoop">
       <created>1554784680353</created>
@@ -743,13 +814,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555049772547</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add by javan 20190415 提交">
+      <created>1555293850969</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555293850969</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test01_curd - 2019.04.12 at 11h 50m 25s.xml">
-      <configuration name="Test01.curd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test01_curd - 2019.04.12 at 11h 56m 01s.xml">
       <configuration name="Test01.curd" configurationId="JUnit" />
     </history-entry>
@@ -777,11 +852,14 @@
     <history-entry file="Test01_curd - 2019.04.12 at 18h 38m 36s.xml">
       <configuration name="Test01.curd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test01_application - 2019.04.15 at 16h 33m 07s.xml">
+      <configuration name="Test01.application" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66412000" />
+    <option name="totallyTimeSpent" value="83651000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -792,16 +870,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2841823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24463807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Hadoop FileSystem" order="5" weight="0.33042896" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5141643" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3838527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.825779" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -813,14 +892,14 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.20113315" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.26742628" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.26742628" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
@@ -863,13 +942,14 @@
     <MESSAGE value="add by javan 20190411 添加hadoop Test" />
     <MESSAGE value="add by javan 20190412 添加eclipse配置" />
     <MESSAGE value="add by javan 20190412 打卡存档" />
-    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190412 打卡存档" />
+    <MESSAGE value="add by javan 20190415 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190415 提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/JsonUtil.java</url>
+          <url>file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/JsonUtil.java</url>
           <line>272</line>
           <properties />
           <option name="timeStamp" value="6" />
@@ -882,162 +962,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/三国演义.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/staff.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/user.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/weibo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/weibo2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/斗破苍穹.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/红楼梦.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/friends.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupOrder.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/sample.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/product.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/order.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/Weibo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/StaffModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/SortModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/OrderInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/GroupOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/GroupSortModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/ReduceTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/MapReduceBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/Reducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.8.5/hadoop-common-2.8.5.jar!/org/apache/hadoop/io/IntWritable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/OutputCollector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/StaffMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.8.5/hadoop-mapreduce-client-common-2.8.5.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="468" selection-start-line="468" selection-end-line="468" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/FileInputFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1059,41 +983,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WordCountReduce.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/WordCountReduce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/WordCountMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCount.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="33" column="55" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/controller/MapReduceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/ReduceJobsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="135" column="30" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,38 +1018,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/service/MapReduceService.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/service/MapReduceService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1018">
           <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeiboMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="11" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/MapTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="255" selection-start-line="255" selection-end-line="255" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="58" selection-start-column="58" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1153,36 +1039,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/Hadoop01Appcaliction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort2.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeatherReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeatherMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="3192">
           <caret line="168" selection-start-line="168" selection-end-line="168" />
         </state>
       </provider>
@@ -1190,17 +1052,256 @@
     <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/WeatherMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapred/MapTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3439">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/reducer/WeatherReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/reduce/mapper/WeiboMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/LinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/T.java" />
+    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="969" column="3" lean-forward="true" selection-start-line="969" selection-start-column="3" selection-end-line="979" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/Node.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/array/TArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/hdfs/controller/HdfsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/mapreduce/SearchStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5792" column="26" selection-start-line="5792" selection-start-column="26" selection-end-line="5792" selection-end-column="26" />
+          <folding>
+            <element signature="e#198787#198788#0" expanded="true" />
+            <element signature="e#198862#198863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/OneWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-921">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/Hadoop01Appcaliction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/ReduceJobsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3933">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="218" selection-start-line="217" selection-end-line="218" />
+        <state relative-caret-position="-1508">
+          <caret line="121" column="76" lean-forward="true" selection-start-line="121" selection-start-column="76" selection-end-line="121" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/utils/Esutil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/controller/EsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>

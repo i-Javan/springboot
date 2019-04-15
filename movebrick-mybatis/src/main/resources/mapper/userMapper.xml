@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper
-	namespace="com.movebrick.mybatis.module.mapper.UserMapper">
+	namespace="com.movebrick.datastructure.mybatis.module.mapper.UserMapper">
 	<resultMap id="BaseResultMap"
-		type="com.movebrick.mybatis.module.bean.User">
+		type="com.movebrick.datastructure.mybatis.module.bean.User">
 		<result column="id" property="id" javaType="String" jdbcType="INTEGER" />
 		<result column="name" property="name" javaType="String" jdbcType="VARCHAR" />
 		<result column="age" property="age" javaType="String" jdbcType="VARCHAR" />
 		<result column="email" property="email" javaType="String" jdbcType="VARCHAR" />
-		<!-- <association property="dept"  javaType="com.movebrick.mybatis.module.bean.Dept"> 
+		<!-- <association property="dept"  javaType="Dept">
 			<result column="did" property="id" javaType="Integer" jdbcType="INTEGER" /> 
 			<result column="dname" property="dname" javaType="String" jdbcType="VARCHAR" />
 		</association> -->
-		<association property="dept" select="com.movebrick.mybatis.module.mapper.DeptMapper.get" column="did"> 
+		<association property="dept" select="com.movebrick.datastructure.mybatis.module.mapper.DeptMapper.get" column="did">
 		</association>
 	</resultMap>
 
 	<parameterMap id="User"
-		type="com.movebrick.mybatis.module.bean.User" />
+		type="com.movebrick.datastructure.mybatis.module.bean.User" />
 
 	<sql id="Base_Column_List">
 		id,name,age,email

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper
-	namespace="com.movebrick.mybatis.generator.mapper.TdeptMapper">
+	namespace="com.movebrick.datastructure.mybatis.generator.mapper.TdeptMapper">
 	<resultMap id="BaseResultMap"
-		type="com.movebrick.mybatis.generator.model.Tdept">
+		type="com.movebrick.datastructure.mybatis.generator.model.Tdept">
 		<result column="id" jdbcType="INTEGER" property="id" />
 		<result column="dname" jdbcType="VARCHAR" property="dname" />
 	</resultMap>
@@ -79,7 +79,7 @@
 	
 	
 	<select id="selectByExample"
-		parameterType="com.movebrick.mybatis.generator.model.TdeptExample"
+		parameterType="com.movebrick.datastructure.mybatis.generator.model.TdeptExample"
 		resultMap="BaseResultMap">
 		select
 		<if test="distinct">
@@ -97,7 +97,7 @@
 	
 	
 	<delete id="deleteByExample"
-		parameterType="com.movebrick.mybatis.generator.model.TdeptExample">
+		parameterType="com.movebrick.datastructure.mybatis.generator.model.TdeptExample">
 		delete from dept
 		<if test="_parameter != null">
 			<include refid="Example_Where_Clause" />
@@ -106,14 +106,14 @@
 
 
 	<insert id="insert"
-		parameterType="com.movebrick.mybatis.generator.model.Tdept">
+		parameterType="com.movebrick.datastructure.mybatis.generator.model.Tdept">
 		insert into dept (id, dname)
 		values (#{id,jdbcType=INTEGER}, #{dname,jdbcType=VARCHAR})
 	</insert>
 	
 	
 	<insert id="insertSelective"
-		parameterType="com.movebrick.mybatis.generator.model.Tdept">
+		parameterType="com.movebrick.datastructure.mybatis.generator.model.Tdept">
 		insert into dept
 		<trim prefix="(" suffix=")" suffixOverrides=",">
 			<if test="id != null">
@@ -135,7 +135,7 @@
 	
 	
 	<select id="countByExample"
-		parameterType="com.movebrick.mybatis.generator.model.TdeptExample"
+		parameterType="com.movebrick.datastructure.mybatis.generator.model.TdeptExample"
 		resultType="java.lang.Long">
 		select count(*) from dept
 		<if test="_parameter != null">

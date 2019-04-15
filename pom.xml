@@ -36,7 +36,8 @@
 		<module>movebrick-zookeeper-dubbo-api</module>
 		<module>movebrick-rabbitMQ</module>
 		<module>movebrick-hadoop</module>
-	</modules>
+        <module>movebrick-dataStructure</module>
+    </modules>
 
 	<developers>
 		<developer>
