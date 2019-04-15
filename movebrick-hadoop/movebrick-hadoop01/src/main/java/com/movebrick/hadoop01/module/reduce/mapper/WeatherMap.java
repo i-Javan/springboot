@@ -20,11 +20,6 @@ import java.util.StringTokenizer;
 public class WeatherMap extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
     private Text word = new Text();
 
-    @Override
-    public void map(LongWritable longWritable, Text text, OutputCollector<Text, IntWritable> outputCollector, Reporter reporter) throws IOException {
-
-    }
-
     //    @Override
 //    public void map(LongWritable  key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
 //        // 打印输入样本 如 2018120715
@@ -43,30 +38,26 @@ public class WeatherMap extends MapReduceBase implements Mapper<LongWritable, Te
 //            System.out.println("==== After Mapper: ==== " + new Text(year) + "," + new IntWritable(temperature));
 ////        }
 //    }
-//Mapper class
-    public static class E_EMapper extends MapReduceBase implements
-            Mapper<LongWritable,/*Input key Type */
-                    Text,                /*Input value Type*/
-                    Text,                /*Output key Type*/
-                    IntWritable>        /*Output value Type*/ {
 
-        //Map function
-        public void map(LongWritable key, Text value,
-                        OutputCollector<Text, IntWritable> output,
-                        Reporter reporter) throws IOException {
-            String line = value.toString();
-            String lasttoken = null;
-            StringTokenizer s = new StringTokenizer(line, "\t");
-            String year = s.nextToken();
+    //Map function
+    public void map(LongWritable key, Text value,
+                    OutputCollector<Text, IntWritable> output,
+                    Reporter reporter) throws IOException {
+        String line = value.toString();
+        int avgprice = 0;
+        int lasttoken = 0;
+        StringTokenizer s = new StringTokenizer(line, " ");
+        String year = s.nextToken();
 
-            while (s.hasMoreTokens()) {
-                lasttoken = s.nextToken();
+        while (s.hasMoreTokens()) {
+            lasttoken =  Integer.parseInt(s.nextToken());
+            if(lasttoken > avgprice){
+                avgprice = lasttoken;
             }
-
-            int avgprice = Integer.parseInt(lasttoken);
-            output.collect(new Text(year), new IntWritable(avgprice));
         }
 
+        System.err.println("Map:" + year + " - " + avgprice);
+        output.collect(new Text(year), new IntWritable(avgprice));
     }
 
 }

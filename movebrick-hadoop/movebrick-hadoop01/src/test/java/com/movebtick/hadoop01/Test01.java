@@ -18,10 +18,7 @@ import java.io.IOException;
 import org.junit.runner.RunWith;
 
 import java.net.URISyntaxException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import javax.annotation.PostConstruct;
 
 import org.apache.hadoop.conf.Configuration;
@@ -209,15 +206,16 @@ public class Test01 extends Test02 {
     @Test
     public void curd() throws Exception {
         // 服务器文件
-        Path serverPath = new Path("/input/groupSort1.txt");
+        Path serverPath = new Path("/input/groupSort2.txt");
         // 原始文件
-        Path localhostDataPath = new Path("D:\\work space\\git-springboot\\movebrick-hadoop\\movebrick-hadoop01\\src\\main\\resources\\data\\groupSort1.txt");
+        Path localhostDataPath = new Path("D:\\work space\\git-springboot\\movebrick-hadoop\\movebrick-hadoop01\\src\\main\\resources\\data\\groupSort2.txt");
 
         FileSystem fs = getFileSystem();
         Configuration conf = getConfiguration();
         fs.copyFromLocalFile(false,localhostDataPath, serverPath);
         System.err.println("从本地复制文件到服务器:" + fs.exists(serverPath));
     }
+
 
 
 }

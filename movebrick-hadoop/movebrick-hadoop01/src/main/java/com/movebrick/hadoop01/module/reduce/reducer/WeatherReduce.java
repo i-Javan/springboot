@@ -44,6 +44,7 @@ public class WeatherReduce extends MapReduceBase implements Reducer<Text, IntWri
 
         while (values.hasNext()) {
             if ((val = values.next().get()) > maxavg) {
+                System.err.println("Reduce:"+key+" - "+val);
                 output.collect(key, new IntWritable(val));
             }
         }
