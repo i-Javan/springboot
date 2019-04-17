@@ -17,6 +17,11 @@
 	</parent>
 
 	<dependencies>
+<!--		<dependency>-->
+<!--			<groupId>com.github.i-javan</groupId>-->
+<!--			<artifactId>movebrick-mybatis-annotation</artifactId>-->
+<!--			<version>1.0</version>-->
+<!--		</dependency>-->
 		<!-- 添加Springboot redis依赖 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

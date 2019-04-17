@@ -18,5 +18,6 @@ public interface RedisService {
 	 * @version Copyright (c) 2018,GPDI  All Rights Reserved.
 	 */
 	List<?> getList(String key);
-	
+
+//	Object get(String key);
 }

@@ -78,6 +78,7 @@ public class UserTest {
 
 
         System.err.println("使用匹配器：");
+
         User user3 = new User();
         user3.setId(l); //查询条件
         ExampleMatcher matcher = ExampleMatcher.matching() //构建对象

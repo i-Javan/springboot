@@ -12,10 +12,10 @@ import com.movebrick.datastructure.mybatisAn.module.server.UserService;
 @SpringBootTest
 public class MybatisTest {
 	
-	@Autowired 
-	private UserService<String> userService;
-	@Test
-	public void get(){
-		System.out.println(userService.getList());
-	}
+//	@Autowired
+//	private UserService<String> userService;
+//	@Test
+//	public void get(){
+//		System.out.println(userService.getList());
+//	}
 }

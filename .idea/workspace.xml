@@ -5,36 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a23b8d77-090c-45b4-b765-2d9fb4324b62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/module/dao/TableDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/module/entity/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/module/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/movebrick-jpa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/JpaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/entity/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/src/test/java/com/movebrick/jpa/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/target/classes/com/movebrick/jpa/JpaApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/target/classes/com/movebrick/jpa/module/dao/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/target/classes/com/movebrick/jpa/module/entity/Dept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/target/classes/com/movebrick/jpa/module/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-jpa/target/test-classes/com/movebrick/jpa/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/MybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/controller/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/dao/RedisDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-JdbcTemplate/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-JdbcTemplate/target/classes/com/movebrick/jdbcTemplate/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-JdbcTemplate/target/classes/com/movebrick/jdbcTemplate/modul/dao/UserRepository$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-JdbcTemplate/target/classes/com/movebrick/jdbcTemplate/modul/dao/UserRepository$UserRowMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-JdbcTemplate/target/classes/com/movebrick/jdbcTemplate/modul/dao/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-JdbcTemplate/target/classes/com/movebrick/jdbcTemplate/modul/entity/Dept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-JdbcTemplate/target/classes/com/movebrick/jdbcTemplate/modul/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-JdbcTemplate/target/test-classes/com/movebrick/jdbctemplate/Get.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/datastructure/jdbc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-jpa/src/test/java/com/movebrick/jpa/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-jpa/src/test/java/com/movebrick/jpa/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-jpa/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-jpa/target/classes/com/movebrick/jpa/JpaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-jpa/target/classes/com/movebrick/jpa/module/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-jpa/target/classes/com/movebrick/jpa/module/entity/Dept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-jpa/target/classes/com/movebrick/jpa/module/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-jpa/target/test-classes/com/movebrick/jpa/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/controller/MybatisAnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/controller/MybatisAnController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/test/java/com/movebrick/datastructure/mybatisAn/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-mybatis-annotation/src/test/java/com/movebrick/datastructure/mybatisAn/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/controller/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/impl/RedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/movebrick-netty-server/target/" />
@@ -84,55 +85,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/JpaApplication.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="76">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/controller/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/entity/Dept.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/dao/RedisDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/dao/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/redis/JedisUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="75" lean-forward="true" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/test/java/com/movebrick/jpa/UserTest.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/impl/RedisServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="95" column="10" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+            <state relative-caret-position="48">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,24 +149,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/movebrick-redis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="270">
+              <caret line="27" column="54" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-jpa/movebrick-jpa.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/test/java/com/movebrick/jdbctemplate/Get.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/EmployeeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="152">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,12 +170,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/main/java/com/movebrick/jdbcTemplate/Application.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/EmployeeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,14 +199,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fromObject</find>
-      <find>hdfsPath</find>
       <find>Configuration</find>
       <find>我</find>
       <find>曹操</find>
@@ -219,6 +234,8 @@
       <find>movebrick-elasticsearch</find>
       <find>219.135.163.82</find>
       <find>junit-vintage</find>
+      <find>ExampleMatcher</find>
+      <find>MybatisApplication</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -241,30 +258,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test03.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test02.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/HdfsUtil.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WordCountReduce.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/sample.txt" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test04.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Eleunits.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/ReduceJobsUtils.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort.txt" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeatherReduce.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort1.txt" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupSort2.txt" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeatherMap.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/pom.xml" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/array/TArray.java" />
-        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/T.java" />
-        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/Node.java" />
-        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/OneWay.java" />
-        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No1.java" />
-        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No2.java" />
-        <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No3.java" />
         <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No4.java" />
         <option value="$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/compute/No5.java" />
         <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/ReduceJobsUtils.java" />
@@ -292,6 +285,30 @@
         <option value="$PROJECT_DIR$/movebrick-jpa/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/dao/UserRepository.java" />
         <option value="$PROJECT_DIR$/movebrick-jpa/src/test/java/com/movebrick/jpa/UserTest.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/User.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/Useres.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/controller/MybatisAnController.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/test/java/com/movebrick/datastructure/mybatisAn/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/MybatisApplication.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/DeptService.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/mapper/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/controller/CacheController.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/dao/RedisDao.java" />
+        <option value="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/movebrick-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/Application.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/Dept.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/Employee.java" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/Application.java" />
+        <option value="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/impl/RedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/movebrick-redis/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -318,22 +335,25 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="movebrick-jpa" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="movebrick" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="movebrick-jpa" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="movebrick" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="16" />
-    <option name="y" value="55" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -343,8 +363,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,7 +374,147 @@
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,10 +526,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.1525" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -380,6 +540,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.movebrick.datastructure.mybatisAn.module.mapper" />
       <recent name="com.movebtick.hadoop01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -401,13 +562,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.testAdd">
-    <configuration name="JpaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movebrick.jpa.JpaApplication" />
-      <module name="movebrick-jpa" />
+  <component name="RunManager" selected="Application.Application (3)">
+    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.movebrick.mybatisPlus.Application" />
+      <module name="movebrick-mybatisPlus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movebrick.jpa.*" />
+          <option name="PATTERN" value="org.movebrick.mybatisPlus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,65 +576,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movebrick-JdbcTemplate" />
+    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.datastructure.mybatisAn.Application" />
+      <module name="movebrick-mybatis-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movebrick.jdbctemplate.*" />
+          <option name="PATTERN" value="com.movebrick.datastructure.mybatisAn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.movebrick.jdbctemplate" />
-      <option name="MAIN_CLASS_NAME" value="com.movebrick.jdbctemplate.Get" />
-      <option name="METHOD_NAME" value="getAll" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get.getList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movebrick-JdbcTemplate" />
+    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.datastructure.redis.Application" />
+      <module name="movebrick-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movebrick.jdbctemplate.*" />
+          <option name="PATTERN" value="com.movebrick.datastructure.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.movebrick.jdbctemplate" />
-      <option name="MAIN_CLASS_NAME" value="com.movebrick.jdbctemplate.Get" />
-      <option name="METHOD_NAME" value="getList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get.getUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movebrick-JdbcTemplate" />
+    <configuration name="MybatisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.datastructure.mybatisAn.MybatisApplication" />
+      <module name="movebrick-mybatis-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movebrick.jdbctemplate.*" />
+          <option name="PATTERN" value="com.movebrick.datastructure.mybatisAn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.movebrick.jdbctemplate" />
-      <option name="MAIN_CLASS_NAME" value="com.movebrick.jdbctemplate.Get" />
-      <option name="METHOD_NAME" value="getUserList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movebrick-jpa" />
+    <configuration name="JedisTest.openJedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movebrick-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movebrick.jpa.*" />
+          <option name="PATTERN" value="com.movebrick.datastructure.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.movebrick.jpa" />
-      <option name="MAIN_CLASS_NAME" value="com.movebrick.jpa.UserTest" />
-      <option name="METHOD_NAME" value="testAdd" />
+      <option name="PACKAGE_NAME" value="com.movebrick.datastructure.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.datastructure.redis.JedisTest" />
+      <option name="METHOD_NAME" value="openJedis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -508,21 +660,83 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_git-springboot" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59869" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.JpaApplication" />
-      <item itemvalue="JUnit.Get.getList" />
-      <item itemvalue="JUnit.Get.getAll" />
-      <item itemvalue="JUnit.Get.getUserList" />
-      <item itemvalue="JUnit.UserTest.testAdd" />
+      <item itemvalue="Application.Application (1)" />
+      <item itemvalue="Application.Application (2)" />
+      <item itemvalue="Application.MybatisApplication" />
+      <item itemvalue="Application.Application (3)" />
+      <item itemvalue="JUnit.JedisTest.openJedis" />
       <item itemvalue="Maven.movebrick [clean,deploy,-P,releease...]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest.testAdd" />
-        <item itemvalue="Application.JpaApplication" />
-        <item itemvalue="JUnit.Get.getUserList" />
-        <item itemvalue="JUnit.Get.getAll" />
-        <item itemvalue="JUnit.Get.getList" />
+        <item itemvalue="Application.Application (3)" />
+        <item itemvalue="Application.Application (2)" />
+        <item itemvalue="JUnit.JedisTest.openJedis" />
+        <item itemvalue="Application.MybatisApplication" />
+        <item itemvalue="Application.Application (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -549,7 +763,9 @@
       <workItem from="1555319989855" duration="4182000" />
       <workItem from="1555375053769" duration="3601000" />
       <workItem from="1555379045279" duration="722000" />
-      <workItem from="1555379834221" duration="4211000" />
+      <workItem from="1555379834221" duration="12295000" />
+      <workItem from="1555461488913" duration="13341000" />
+      <workItem from="1555487789728" duration="4469000" />
     </task>
     <task id="LOCAL-00001" summary="add by javan 20190409 添加es和hadoop">
       <created>1554784680353</created>
@@ -656,19 +872,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555323601697</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add by javan 20190416 添加jpa基础操作">
+      <created>1555384149553</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555384149553</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_testAdd - 2019.04.16 at 10h 20m 16s.xml">
-      <configuration name="UserTest.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_testAdd - 2019.04.16 at 10h 22m 06s.xml">
-      <configuration name="UserTest.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_testAdd - 2019.04.16 at 10h 23m 18s.xml">
-      <configuration name="UserTest.testAdd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest_testAdd - 2019.04.16 at 10h 42m 07s.xml">
       <configuration name="UserTest.testAdd" configurationId="JUnit" />
     </history-entry>
@@ -690,9 +904,18 @@
     <history-entry file="UserTest_testAdd - 2019.04.16 at 10h 58m 33s.xml">
       <configuration name="UserTest.testAdd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserTest_testAdd - 2019.04.16 at 11h 41m 47s.xml">
+      <configuration name="UserTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisTest_openJedis - 2019.04.17 at 15h 20m 54s.xml">
+      <configuration name="JedisTest.openJedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JedisTest_openJedis - 2019.04.17 at 15h 24m 16s.xml">
+      <configuration name="JedisTest.openJedis" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96091000" />
+    <option name="totallyTimeSpent" value="121985000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -705,17 +928,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6328767" visible="true" weight="0.2546917" />
-      <window_info id="Structure" order="1" sideWeight="0.36712328" side_tool="true" weight="0.24798928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74645895" visible="true" weight="0.31434315" />
+      <window_info id="Structure" order="1" sideWeight="0.25354108" side_tool="true" visible="true" weight="0.31434315" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Hadoop FileSystem" order="5" weight="0.33042896" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4362606" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.825779" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3696884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7308782" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -726,13 +951,13 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.20113315" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2181303" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.26742628" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.26742628" />
       <window_info anchor="right" id="Bean Validation" order="6" weight="0.23324397" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
@@ -780,7 +1005,8 @@
     <MESSAGE value="add by javan 20190415 添加数据结构" />
     <MESSAGE value="add by javan 20190415 Version1.0" />
     <MESSAGE value="add by javan 20190415 添加JdbcTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190415 添加JdbcTemplate" />
+    <MESSAGE value="add by javan 20190416 添加jpa基础操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190416 添加jpa基础操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,276 +1025,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/datastructure/hadoop01/module/util/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/utils/Esutil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch.iml" />
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/controller/EsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick (2).iml" />
-    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log4j-application.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-elasticsearch/src/main/java/com/movebrick/datastructure/elasticsearch/module/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/test/java/org/movebrick/mybatis/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-mybatis/src/main/java/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/main/java/com/movebrick/jdbcTemplate/modul/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/movebrick-mybatis/src/test/java/org/movebrick/mybatis/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/test/java/com/movebtick/hadoop01/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.5.RELEASE/spring-jdbc-5.1.5.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2844">
-          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/main/java/com/movebrick/jdbcTemplate/modul/dao/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/module/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/module/entity/Dept.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/main/java/com/movebrick/jdbcTemplate/modul/entity/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/main/java/com/movebrick/jdbcTemplate/modul/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/module/dao/TableDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/util/UUID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-          <folding>
-            <element signature="e#6833#6834#0" expanded="true" />
-            <element signature="e#6868#6869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jpa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/test/java/com/movebrick/jdbctemplate/Get.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-JdbcTemplate/src/main/java/com/movebrick/jdbcTemplate/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.5.RELEASE/spring-data-commons-2.1.5.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/entity/Dept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,40 +1039,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jpa/movebrick-jpa.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/JpaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.5.RELEASE/spring-data-jpa-2.1.5.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="34" column="41" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/dao/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="75" lean-forward="true" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,10 +1067,364 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="819" column="35" lean-forward="true" selection-start-line="819" selection-start-column="35" selection-end-line="819" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/JpaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/java/com/movebrick/jpa/module/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/test/java/com/movebrick/jpa/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="95" column="10" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+        <state relative-caret-position="1273">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis/src/main/java/org/movebrick/mybatis/module/controller/MybatisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatisPlus/src/main/java/org/movebrick/mybatisPlus/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-jpa/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-jpa/movebrick-jpa.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatisPlus/src/main/java/org/movebrick/mybatisPlus/module/controller/MybatisPlusController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/test/java/com/movebrick/datastructure/mybatisAn/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="762" column="12" lean-forward="true" selection-start-line="762" selection-start-column="12" selection-end-line="762" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56923">
+          <caret line="3167" selection-start-line="112" selection-end-line="3167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/test/java/com/movebrick/datastructure/redis/RedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/test/java/com/movebrick/datastructure/redis/JedisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/redis/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="188" column="18" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1293">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/bean/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/MybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/controller/MybatisAnController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/controller/CacheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/module/server/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-mybatis-annotation/src/main/java/com/movebrick/datastructure/mybatisAn/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/redis/JedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/dao/RedisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/datastructure/redis/module/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1153,6 +1437,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>movebrick-mybatis-annotation:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1244,5 +1529,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean package" />
   </component>
 </project>

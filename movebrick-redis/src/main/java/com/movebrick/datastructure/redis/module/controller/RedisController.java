@@ -22,7 +22,12 @@ public class RedisController {
 	}
 	
 	@GetMapping("getList")
-	public Object getList(){
-		return redisService.getList("啊哈哈");
+	public Object getList(String key){
+		return redisService.getList(key);
 	}
+
+//	@GetMapping("getDept")
+//	public Object getDept(){
+//		return redisService.get("a");
+//	}
 }
