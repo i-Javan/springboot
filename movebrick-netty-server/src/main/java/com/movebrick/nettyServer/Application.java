@@ -1,4 +1,4 @@
-package com.movebrick.datastructure;
+package com.movebrick.nettyServer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

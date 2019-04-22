@@ -11,20 +11,21 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/pc/redis")
 public class RedisController {
 
-	@Autowired
-	private RedisUtils redisUtils;
-	@Autowired
-	private RedisService redisService;
-	
-	@GetMapping("get")
-	public String get(){
-		return redisUtils.get("a");
-	}
-	
-	@GetMapping("getList")
-	public Object getList(String key){
-		return redisService.getList(key);
-	}
+    @Autowired
+    private RedisUtils redisUtils;
+    @Autowired
+    private RedisService redisService;
+
+    @GetMapping("get")
+    public String get() {
+        return redisUtils.get("a");
+    }
+
+    @GetMapping("getList")
+    public Object getList(String key) {
+
+        return redisService.getList(key);
+    }
 
 //	@GetMapping("getDept")
 //	public Object getDept(){
