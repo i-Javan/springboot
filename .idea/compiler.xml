@@ -8,12 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="movebrick-mybatisPlus" />
         <module name="movebrick-dataStructure" />
-        <module name="movebrick-activeMQ" />
         <module name="movebrick-mybatis" />
         <module name="movebrick-jdbc" />
         <module name="movebrick-elasticsearch01" />
         <module name="movebrick-netty-server" />
         <module name="movebrick-netty-client" />
+        <module name="movebrick-rabbitMQ" />
         <module name="movebrick-hadoop02" />
         <module name="movebrick-hadoop01" />
         <module name="movebrick-jpa" />
@@ -24,7 +24,7 @@
         <module name="movebrick-mybatis-annotation" />
         <module name="movebrick-zookeeper-dubbo-api" />
         <module name="movebrick-redis" />
-        <module name="movebrick-rabbitMQ" />
+        <module name="movebrick-activeMQ" />
         <module name="movebrick-utils" />
       </profile>
     </annotationProcessing>

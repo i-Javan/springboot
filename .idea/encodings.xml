@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/movebrick-dataStructure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-elasticsearch01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-elasticsearch01/src/main/resources/application.properties" charset="GBK" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupOrder.txt" charset="UTF-8" />
