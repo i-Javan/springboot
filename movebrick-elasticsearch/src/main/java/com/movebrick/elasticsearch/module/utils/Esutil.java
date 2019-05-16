@@ -17,7 +17,7 @@ import org.elasticsearch.common.text.Text;
 import org.elasticsearch.common.transport.TransportAddress;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
-import org.elasticsearch.search.SearchHits; 
+import org.elasticsearch.search.SearchHits;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
@@ -25,7 +25,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 @Component
-public class Esutil { 
+public class Esutil {
 	public static TransportClient client;
 
 	Esutil() throws Exception {
@@ -56,7 +56,7 @@ public class Esutil {
 
 	/**
 	 * 新建索引
-	 * 
+	 *
 	 * @param index
 	 * @param type
 	 * @param map
@@ -80,7 +80,7 @@ public class Esutil {
 
 	/**
 	 * 修改增加rowkey 和 列族
-	 * 
+	 *
 	 * @param key
 	 * @param index
 	 * @param type

@@ -1,188 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.i-javan</groupId>
-	<artifactId>movebrick</artifactId>
-	<version>1.0</version>
-	<packaging>pom</packaging>
-	<name>movebrick</name>
-	<description>备注</description>
-	<url>https://github.com/i-Javan/springboot</url>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.i-javan</groupId>
+    <artifactId>movebrick</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>movebrick</name>
+    <description>备注</description>
+    <url>https://github.com/i-Javan/springboot</url>
 
-	<!-- 继承说明：这里继承SpringBoot提供的父工程 -->
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.3.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
-	</parent>
+    <!-- 继承说明：这里继承SpringBoot提供的父工程 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.3.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
-	<modules>
-		<module>movebrick-redis</module>
-		<module>movebrick-mybatis</module>
-		<module>movebrick-activeMQ</module>
-		<module>movebrick-mybatisPlus</module>
-		<module>movebrick-mybatis-annotation</module>
-		<module>movebrick-zookeeper-dubbo-client</module>
-		<module>movebrick-zookeeper-dubbo-server</module>
-		<module>movebrick-elasticsearch</module>
-		<module>movebrick-netty-client</module>
-		<module>movebrick-netty-server</module>
-		<module>movebrick-jdbc</module>
-		<module>movebrick-JdbcTemplate</module>
-		<module>movebrick-utils</module>
-		<module>movebrick-zookeeper-dubbo-api</module>
-		<module>movebrick-rabbitMQ</module>
-		<module>movebrick-hadoop</module>
+    <modules>
+        <module>movebrick-redis</module>
+        <module>movebrick-mybatis</module>
+        <module>movebrick-activeMQ</module>
+        <module>movebrick-mybatisPlus</module>
+        <module>movebrick-mybatis-annotation</module>
+        <module>movebrick-zookeeper-dubbo-client</module>
+        <module>movebrick-zookeeper-dubbo-server</module>
+        <module>movebrick-elasticsearch</module>
+        <module>movebrick-netty-client</module>
+        <module>movebrick-netty-server</module>
+        <module>movebrick-jdbc</module>
+        <module>movebrick-JdbcTemplate</module>
+        <module>movebrick-utils</module>
+        <module>movebrick-zookeeper-dubbo-api</module>
+        <module>movebrick-rabbitMQ</module>
+        <module>movebrick-hadoop</module>
         <module>movebrick-dataStructure</module>
         <module>movebrick-jpa</module>
+        <module>movebrick-elasticsearch01</module>
     </modules>
 
-	<developers>
-		<developer>
-			<name>Javan</name>
-			<email>https://www.jianshu.com/u/ecd4770495d6</email>
-		</developer>
-	</developers>
+    <developers>
+        <developer>
+            <name>Javan</name>
+            <email>https://www.jianshu.com/u/ecd4770495d6</email>
+        </developer>
+    </developers>
 
-	<!-- 版本定义 -->
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-		<mybatis.version>1.3.2</mybatis.version>
-		<mybatis.plus.version>3.0.7.1</mybatis.plus.version>
-	</properties>
+    <!-- 版本定义 -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <mybatis.version>1.3.2</mybatis.version>
+        <mybatis.plus.version>3.0.7.1</mybatis.plus.version>
+    </properties>
 
-	<!-- 版本说明：这里统一管理依赖的版本号 -->
-	<dependencies>
-		<!-- 引入Sonatype官方的一个通用配置oss-parent -->
-		<!-- <dependency> <groupId>org.sonatype.oss</groupId> <artifactId>oss-parent</artifactId> 
-			<version>7</version> </dependency> -->
-		<!-- 添加Test依赖 -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+    <!-- 版本说明：这里统一管理依赖的版本号 -->
+    <dependencies>
+        <!-- 引入Sonatype官方的一个通用配置oss-parent -->
+        <!-- <dependency> <groupId>org.sonatype.oss</groupId> <artifactId>oss-parent</artifactId>
+            <version>7</version> </dependency> -->
+        <!-- 添加Test依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 
-		<!-- 添加WEB依赖 -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+        <!-- 添加WEB依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
-		<!-- 添加lombox依赖 -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
+        <!-- 添加lombox依赖 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
 
-		<!--添加MySQL驱动依赖 -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+        <!--添加MySQL驱动依赖 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 
-		<!-- 引入第三方数据源 -->
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>druid</artifactId>
-			<version>1.1.6</version>
-		</dependency>
-	</dependencies>
+        <!-- 引入第三方数据源 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.6</version>
+        </dependency>
+    </dependencies>
 
-	<licenses>
-		<license>
-			<name>The Apache Software License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>
-		</license>
-	</licenses>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
-	<scm>
-		<url>https://github.com/i-Javan/springboot</url>
-		<connection>scm:git:https://github.com/i-Javan/springboot.git</connection>
-		<developerConnection>scm:git:https://github.com/i-Javan/springboot.git</developerConnection>
-		<tag>springboot</tag>
-	</scm>
+    <scm>
+        <url>https://github.com/i-Javan/springboot</url>
+        <connection>scm:git:https://github.com/i-Javan/springboot.git</connection>
+        <developerConnection>scm:git:https://github.com/i-Javan/springboot.git</developerConnection>
+        <tag>springboot</tag>
+    </scm>
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>oss</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>oss</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-	</distributionManagement>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
-					<encoding>${project.build.sourceEncoding}</encoding>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
-	<profiles>
-		<profile>
-			<id>release</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-source-plugin</artifactId>
-						<version>2.1.2</version>
-						<executions>
-							<execution>
-								<id>attach-sources</id>
-								<goals>
-									<goal>jar</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-javadoc-plugin</artifactId>
-						<version>2.8.1</version>
-						<executions>
-							<execution>
-								<id>attach-javadocs</id>
-								<goals>
-									<goal>jar</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-gpg-plugin</artifactId>
-						<version>1.5</version>
-						<executions>
-							<execution>
-								<id>sign-artifacts</id>
-								<phase>verify</phase>
-								<goals>
-									<goal>sign</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
+    <profiles>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <version>2.1.2</version>
+                        <executions>
+                            <execution>
+                                <id>attach-sources</id>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <version>2.8.1</version>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.5</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>

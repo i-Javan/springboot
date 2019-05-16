@@ -1,11 +1,9 @@
 package com.movebtick.hadoop01;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.URI;
-
-import com.movebrick.datastructure.hadoop01.module.reduce.mapper.WordCountMap;
-import com.movebrick.datastructure.hadoop01.module.reduce.reducer.WordCountReduce;
+import com.movebrick.hadoop01.Hadoop01Appcaliction;
+import com.movebrick.hadoop01.module.reduce.mapper.WordCountMap;
+import com.movebrick.hadoop01.module.reduce.reducer.WordCountReduce;
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -14,18 +12,21 @@ import org.apache.hadoop.mapreduce.lib.input.CombineTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.junit.Test;
-import java.io.IOException;
 import org.junit.runner.RunWith;
-
-import java.net.URISyntaxException;
-import java.util.*;
-import javax.annotation.PostConstruct;
-
-import org.apache.hadoop.conf.Configuration;
-import org.springframework.util.StringUtils;
-import com.movebrick.datastructure.hadoop01.Hadoop01Appcaliction;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.util.StringUtils;
+
+import javax.annotation.PostConstruct;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 @RunWith(SpringRunner.class)
@@ -139,12 +140,12 @@ public class Test01 extends Test02 {
         getParant();
         System.err.println("----------------------");
         FileSystem fs = getFileSystem();
-        System.err.println("FileSystem:"+fs);
+        System.err.println("FileSystem:" + fs);
         System.err.println("---------- HDFS ------------");
         // 调用文件系统的文件复制方法，第一个参数是否删除原文件true为删除，默认为false
-        fs.copyFromLocalFile(false,localhostDataPath, serverPath);
+        fs.copyFromLocalFile(false, localhostDataPath, serverPath);
         System.err.println("从本地复制文件到服务器:" + fs.exists(serverPath));
-        System.err.println("重命名:" + fs.rename(serverPath,deletePath));
+        System.err.println("重命名:" + fs.rename(serverPath, deletePath));
         System.err.println("判断是否存在:" + fs.exists(deletePath));
         System.err.println("删除文件:" + fs.deleteOnExit(deletePath));
         System.err.println("复制文件:");
@@ -166,9 +167,9 @@ public class Test01 extends Test02 {
 
         Thread.sleep(1000);//睡眠一秒
 
-        System.err.println("输出目录是否存在："+fs.exists(outputPath));
+        System.err.println("输出目录是否存在：" + fs.exists(outputPath));
         Configuration conf = getConfiguration();
-        System.err.println("conf:"+conf);
+        System.err.println("conf:" + conf);
         Job job = Job.getInstance(conf, "1500000.txt");
         job.setMapperClass(WordCountMap.class);
         job.setCombinerClass(WordCountReduce.class);
@@ -181,13 +182,13 @@ public class Test01 extends Test02 {
         CombineTextInputFormat.setMaxInputSplitSize(job, 10 * 1024 * 1024);// 最大分片
         CombineTextInputFormat.setMinInputSplitSize(job, 4 * 1024 * 1024);// 最小分片
 
-        FileInputFormat.addInputPath(job,statisticsPath);
-        FileOutputFormat.setOutputPath(job,outputPath);
+        FileInputFormat.addInputPath(job, statisticsPath);
+        FileOutputFormat.setOutputPath(job, outputPath);
         job.waitForCompletion(true);
         System.err.println("---------- 读取内容：------------");
         FSDataInputStream inputStream = fs.open(outputFilePath);
         // 防止中文乱码
-        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream,"UTF-8"));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
         String lineTxt = "";
         StringBuffer sb = new StringBuffer();
         while ((lineTxt = reader.readLine()) != null) {
@@ -195,7 +196,7 @@ public class Test01 extends Test02 {
         }
         System.err.println("------------ 文件内容： ----------");
         System.err.println(sb.toString());
-        if(fs.exists(outputPath)){//判断输出目录是否存在
+        if (fs.exists(outputPath)) {//判断输出目录是否存在
             fs.deleteOnExit(outputPath);//删除已有内容
         }
         System.err.println("------------ End ----------");
@@ -212,10 +213,9 @@ public class Test01 extends Test02 {
 
         FileSystem fs = getFileSystem();
         Configuration conf = getConfiguration();
-        fs.copyFromLocalFile(false,localhostDataPath, serverPath);
+        fs.copyFromLocalFile(false, localhostDataPath, serverPath);
         System.err.println("从本地复制文件到服务器:" + fs.exists(serverPath));
     }
-
 
 
 }

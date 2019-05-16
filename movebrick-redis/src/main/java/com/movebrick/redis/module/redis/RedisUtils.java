@@ -1,12 +1,5 @@
 package com.movebrick.redis.module.redis;
 
-import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +10,9 @@ import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.stereotype.Component;
+
+import java.nio.charset.Charset;
+import java.util.*;
 
 @Component
 public class RedisUtils {
@@ -193,7 +189,7 @@ public class RedisUtils {
             byte[] values = connection.get(keys);
             return serializer.deserialize(values);
         });
-        LOGGER.info("[redisTemplate redis]取出 缓存  url:{} ", key);
+        LOGGER.info("[redisTemplate redis]取出 缓存  url:{} value:{} ", key, resultStr);
         return resultStr;
     }
 
