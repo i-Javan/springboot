@@ -29,6 +29,8 @@
     <file url="file://$PROJECT_DIR$/movebrick-netty-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-rabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-seckill" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-seckill-API" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-zookeeper-dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-zookeeper-dubbo-client" charset="UTF-8" />

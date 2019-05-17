@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="movebrick-seckill-API" />
+        <module name="movebrick-seckill" />
         <module name="movebrick-mybatisPlus" />
         <module name="movebrick-dataStructure" />
         <module name="movebrick-mybatis" />
@@ -50,6 +52,8 @@
       <module name="movebrick-netty-server" options="-parameters" />
       <module name="movebrick-rabbitMQ" options="-parameters" />
       <module name="movebrick-redis" options="-parameters" />
+      <module name="movebrick-seckill" options="-parameters" />
+      <module name="movebrick-seckill-API" options="-parameters" />
       <module name="movebrick-utils" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-api" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-client" options="-parameters" />
