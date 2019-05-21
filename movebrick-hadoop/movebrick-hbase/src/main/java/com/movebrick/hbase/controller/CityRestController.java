@@ -1,7 +1,7 @@
-package org.spring.springboot.controller;
+package com.movebrick.hbase.controller;
 
-import org.spring.springboot.domain.City;
-import org.spring.springboot.service.CityService;
+import com.movebrick.hbase.domain.City;
+import com.movebrick.hbase.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -23,7 +23,7 @@ public class CityRestController {
         city.setAge(1);
         return city;
     }
-    
+
     @RequestMapping(value = "/api/city/get", method = RequestMethod.GET)
     public City getCity() {
         return cityService.query("135xxxxxx");

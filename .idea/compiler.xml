@@ -18,6 +18,7 @@
         <module name="movebrick-netty-client" />
         <module name="movebrick-hadoop02" />
         <module name="movebrick-hadoop01" />
+        <module name="movebrick-hbase" />
         <module name="movebrick-jpa" />
         <module name="movebrick-elasticsearch" />
         <module name="movebrick-zookeeper-dubbo-server" />
@@ -43,6 +44,7 @@
       <module name="movebrick-elasticsearch01" options="-parameters" />
       <module name="movebrick-hadoop01" options="-parameters" />
       <module name="movebrick-hadoop02" options="-parameters" />
+      <module name="movebrick-hbase" options="-parameters" />
       <module name="movebrick-jdbc" options="-parameters" />
       <module name="movebrick-jpa" options="-parameters" />
       <module name="movebrick-mybatis" options="-parameters" />

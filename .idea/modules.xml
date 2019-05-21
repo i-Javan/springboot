@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/movebrick-hadoop02.iml" filepath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/movebrick-hadoop02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hbase/movebrick-hbase.iml" filepath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hbase/movebrick-hbase.iml" />
     </modules>
   </component>
 </project>

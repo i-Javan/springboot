@@ -1,6 +1,6 @@
-package org.spring.springboot.service;
+package com.movebrick.hbase.service;
 
-import org.spring.springboot.domain.City;
+import com.movebrick.hbase.domain.City;
 
 import java.util.List;
 
@@ -10,10 +10,10 @@ import java.util.List;
  * Created by bysocket on 07/02/2017.
  */
 public interface CityService {
-    
+
     List<City> query(String startRow, String stopRow);
-    
+
     public City query(String row);
-    
+
     void saveOrUpdate();
 }
