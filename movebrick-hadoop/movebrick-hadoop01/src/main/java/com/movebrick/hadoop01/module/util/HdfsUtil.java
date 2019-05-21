@@ -53,7 +53,7 @@ public class HdfsUtil {
     public static FileSystem getFileSystem() throws Exception {
         // 客户端去操作hdfs时是有一个用户身份的，默认情况下hdfs客户端api会从jvm中获取一个参数作为自己的用户身份 DHADOOP_USER_NAME=hadoop
 //        也可以在构造客户端fs对象时，通过参数传递进去
-        System.setProperty("HADOOP_USER_NAME", "hadoop");
+        System.setProperty("HADOOP_USER_NAME", "root");
         FileSystem fileSystem = FileSystem.get(new URI(hdfsPath), getConfiguration(), hdfsName);
         return fileSystem;
     }

@@ -5,53 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a23b8d77-090c-45b4-b765-2d9fb4324b62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/ServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/StockOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/mapper/StockOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/DBOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/DubboService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/StockService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DBOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DubboServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill-API/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/movebrick-seckill.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/controller/SeckillController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/dao/RedisDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/redis/JedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/redis/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/StockService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/impl/StockServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/test/java/com/movebrick/datastructure/redis/JedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/test/java/com/movebrick/datastructure/redis/RedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/src/test/test3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/com/movebrick/seckill/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/com/movebrick/seckill/module/controller/RedisController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/com/movebrick/seckill/module/controller/SeckillController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/com/movebrick/seckill/module/dao/RedisDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/com/movebrick/seckill/module/redis/JedisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/com/movebrick/seckill/module/redis/RedisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/com/movebrick/seckill/module/service/RedisService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/classes/com/movebrick/seckill/module/service/impl/RedisServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/test-classes/com/movebrick/datastructure/redis/JedisTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movebrick-seckill/target/test-classes/com/movebrick/datastructure/redis/RedisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hbase/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movebrick-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-redis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/HdfsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/HdfsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-hadoop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-hadoop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movebrick-seckill-API/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movebrick-seckill-API/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/movebrick-netty-server/target/" />
@@ -104,18 +66,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="171">
               <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="e#249#250#0" expanded="true" />
@@ -145,34 +98,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DubboServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="304">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/DBOrderService.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DBOrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            <state relative-caret-position="358">
+              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DBOrderServiceImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/ServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -186,23 +137,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/StockService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hbase/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="92">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/DubboService.java">
+        <entry file="file://$PROJECT_DIR$/movebrick-hadoop/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="46" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -210,26 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/StockOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -247,7 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ik-analyzers</find>
       <find>wordCount</find>
       <find>hdfs</find>
       <find>getAarant</find>
@@ -277,6 +220,7 @@
       <find>create</find>
       <find>orderMapper</find>
       <find>stockService</find>
+      <find>System.s</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -299,10 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/movebrick-netty-server/src/main/java/com/movebrick/nettyServer/module/server/NettyServer.java" />
-        <option value="$PROJECT_DIR$/movebrick-netty-client/src/main/java/com/movebrick/nettyClient/module/client/NettyClient.java" />
-        <option value="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/service/impl/RedisServiceImpl.java" />
-        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/GroupOrderComparator.java" />
         <option value="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/redis/RedisUtils.java" />
         <option value="$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/movebrick-zookeeper-dubbo-server/pom.xml" />
@@ -332,7 +272,6 @@
         <option value="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/OrderService.java" />
         <option value="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/impl/StockServiceImpl.java" />
         <option value="$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/movebrick-seckill-API/pom.xml" />
         <option value="$PROJECT_DIR$/movebrick-seckill/pom.xml" />
         <option value="$PROJECT_DIR$/movebrick-seckill/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/movebrick-zookeeper-dubbo-client/src/main/resources/application.properties" />
@@ -350,6 +289,11 @@
         <option value="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/StockServiceImpl.java" />
         <option value="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/StockService.java" />
         <option value="$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/StockOrder.java" />
+        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/HdfsUtil.java" />
+        <option value="$PROJECT_DIR$/movebrick-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/movebrick-seckill-API/pom.xml" />
+        <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hbase/pom.xml" />
       </list>
     </option>
   </component>
@@ -380,12 +324,12 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="movebrick" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="movebrick-seckill-API" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="movebrick" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="movebrick-seckill-API" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -395,10 +339,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1866" />
-    <option name="y" value="56" />
-    <option name="width" value="1920" />
-    <option name="height" value="812" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -418,267 +362,26 @@
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-JdbcTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-JdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-JdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-JdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-JdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbcTemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-JdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="modul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-JdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="modul" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-JdbcTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="seckill" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-seckill-API" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-zookeeper-dubbo-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-zookeeper-dubbo-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-zookeeper-dubbo-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-zookeeper-dubbo-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-zookeeper-dubbo-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="movebrick-zookeeper-dubbo-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="movebrick-hbase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/movebrick-seckill/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GPDI/auto-store/auto-store-services" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1525" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -719,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application (2)">
+  <component name="RunManager" selected="Application.Hadoop01Appcaliction">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movebrick.elasticsearch.Application" />
       <module name="movebrick-elasticsearch01" />
@@ -772,12 +475,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movebrick.nettyClient.module.client.NettyClient" />
-      <module name="movebrick-netty-client" />
+    <configuration name="Hadoop01Appcaliction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movebrick.hadoop01.Hadoop01Appcaliction" />
+      <module name="movebrick-hadoop01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.movebrick.nettyClient.module.client.*" />
+          <option name="PATTERN" value="com.movebrick.hadoop01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -877,20 +580,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NettyClient" />
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.Esutil" />
-      <item itemvalue="Maven.movebrick [clean,deploy,-P,releease...]" />
       <item itemvalue="Application.Application (1)" />
       <item itemvalue="Application.Application (2)" />
+      <item itemvalue="Maven.movebrick [clean,deploy,-P,releease...]" />
+      <item itemvalue="Application.Hadoop01Appcaliction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hadoop01Appcaliction" />
         <item itemvalue="Application.Application (2)" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.Esutil" />
-        <item itemvalue="Application.NettyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -941,7 +644,8 @@
       <workItem from="1557889540165" duration="1087000" />
       <workItem from="1557903618528" duration="3406000" />
       <workItem from="1557969609636" duration="1100000" />
-      <workItem from="1557988373721" duration="17848000" />
+      <workItem from="1557988373721" duration="18390000" />
+      <workItem from="1558421720681" duration="2924000" />
     </task>
     <task id="LOCAL-00001" summary="add by javan 20190409 添加es和hadoop">
       <created>1554784680353</created>
@@ -1097,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557998998091</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add by javan 20190517 添加seckill">
+      <created>1558074402134</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1558074402135</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1133,7 +844,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228432000" />
+    <option name="totallyTimeSpent" value="231898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1145,10 +856,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7" visible="true" weight="0.28150135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7" visible="true" weight="0.2855228" />
       <window_info id="Structure" order="1" sideWeight="0.3" side_tool="true" weight="0.22855228" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1157,8 +868,8 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8344504" weight="0.23512748" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.791555" visible="true" weight="0.2875354" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83378017" visible="true" weight="0.23371105" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.791555" weight="0.2875354" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
@@ -1166,10 +877,10 @@
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49731904" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.20844504" side_tool="true" visible="true" weight="0.2875354" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.16621985" side_tool="true" visible="true" weight="0.23371105" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49865952" weight="0.04249292" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49798927" weight="0.04249292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1230,7 +941,8 @@
     <MESSAGE value="add by javan 20190422 添加java网络编程io,nio" />
     <MESSAGE value="add by javan 20190423 添加netty简单连接" />
     <MESSAGE value="add by javan 20190516 添加elasticsearch01" />
-    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190516 添加elasticsearch01" />
+    <MESSAGE value="add by javan 20190517 添加seckill" />
+    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190517 添加seckill" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1249,180 +961,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.5.RELEASE/spring-data-redis-2.1.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/redis/JedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/redis/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#10107#10108#0" expanded="true" />
-            <element signature="e#10165#10166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/linkedList/OneWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="24" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-redis/src/main/java/com/movebrick/redis/module/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/pom1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/controller/CurrentLimitingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-dataStructure/src/main/java/com/movebrick/datastructure/controller/CounterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/context/JDK/JDK1.8.0_202/JDK/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/dao/RedisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/StockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/controller/SeckillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/impl/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/impl/StockServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/java/com/movebrick/seckill/module/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-jdbc/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-jdbc/src/main/java/com/movebrick/jdbc/module/entity/Dept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1479,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-seckill/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1521,10 +1052,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill.java" />
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/controller/DubboController.java" />
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/StockServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="95">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/DBOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/StockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/DubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/Hadoop01Appcaliction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/mapreduce/SearchStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/mapreduce/GroupSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/GroupOrderComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/StaffProvincePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/WeiboInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/bean/WeiboRecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/FriendsReduce1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/model/GroupOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/CounterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/hdfs/service/HdfsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/hdfs/config/HdfsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/hdfs/controller/HdfsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/reduce/service/MapReduceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/ReduceJobsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/java/com/movebrick/hadoop01/module/util/HdfsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1549,37 +1252,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/controller/DubboController.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DubboServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="304">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/DBOrderService.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DBOrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/StockService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        <state relative-caret-position="358">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="171">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#249#250#0" expanded="true" />
@@ -1607,42 +1302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/bean/StockOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/StockServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -1653,35 +1314,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/DubboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DubboServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hbase/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movebrick-seckill-API/src/main/java/com/movebrick/seckill/module/service/impl/DBOrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>

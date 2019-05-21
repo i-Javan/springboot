@@ -11,6 +11,7 @@
     <modules>
         <module>movebrick-hadoop01</module>
         <module>movebrick-hadoop02</module>
+        <module>movebrick-hbase</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 

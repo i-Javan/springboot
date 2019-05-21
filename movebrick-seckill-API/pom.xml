@@ -26,6 +26,7 @@
         <dependency>
             <groupId>com.github.i-javan</groupId>
             <artifactId>movebrick-JdbcTemplate</artifactId>
+            <version>1.0</version>
         </dependency>
         <!-- Dubbo依赖  -->
         <dependency>

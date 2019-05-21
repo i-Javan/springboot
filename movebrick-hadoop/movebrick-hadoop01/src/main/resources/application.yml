@@ -14,8 +14,8 @@ server:
 #  username: root
 
 hdfs:
-  path: hdfs://172.16.104.204:9000
-  username: hadoop
+  path: hdfs://172.16.104.203:9000
+  username: root
 
 # 使用sqoop查看mysql中的数据表：
 #   ./sqoop list-databases --connect jdbc:mysql://172.16.104.204:3306/atmosphere_data_analysis?characterEncodingg=UTF-8 --username root --password 'bigdata'
