@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/movebrick-mybatis-annotation" />
+    <file type="web" url="file://$PROJECT_DIR$/movebrick-mybatis/movebrick-mybatis-annotation" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,7 +15,10 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/movebrick-elasticsearch01/pom.xml" />
         <option value="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/pom.xml" />
+        <option value="$PROJECT_DIR$/movebrick-mybatis/movebrick-mybatis-official/pom.xml" />
       </set>
     </option>
   </component>

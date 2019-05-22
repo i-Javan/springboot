@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>movebrick-zookeeper-dubbo-server</name>
+    <description>movebrick-zookeeper-dubbo-server</description>
+
+    <artifactId>movebrick-zookeeper-dubbo-server</artifactId>
+    <packaging>jar</packaging>
+
+
+    <!-- 父类 -->
+    <parent>
+        <groupId>com.github.i-javan</groupId>
+        <artifactId>movebrick-dubbo</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <curator-framework.version>4.0.1</curator-framework.version>
+        <zookeeper.version>3.4.13</zookeeper.version>
+        <dubbo.starter.version>0.2.0</dubbo.starter.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.i-javan</groupId>
+            <artifactId>movebrick-zookeeper-dubbo-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <!-- Spring Boot Dubbo 依赖 -->
+        <!-- <dependency> <groupId>io.dubbo.springboot</groupId> <artifactId>spring-boot-starter-dubbo</artifactId>
+            <version>1.0.0</version> </dependency> -->
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/dubbo -->
+        <!-- <dependency> <groupId>com.alibaba</groupId> <artifactId>dubbo</artifactId>
+            <version>2.6.5</version> </dependency> -->
+
+        <!-- <dependency> <groupId>com.101tec</groupId> <artifactId>zkclient</artifactId>
+            <version>0.11</version> </dependency> -->
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>${dubbo.starter.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>${curator-framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>${zookeeper.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

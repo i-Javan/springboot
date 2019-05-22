@@ -1,27 +1,20 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<name>movebrick-mybatis</name>
-	<description>movebrick-mybatis</description>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>movebrick</artifactId>
+        <groupId>com.github.i-javan</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <artifactId>movebrick-mybatis</artifactId>
 
-	<artifactId>movebrick-mybatis</artifactId>
-	<packaging>jar</packaging>
-
-	<parent>
-		<groupId>com.github.i-javan</groupId>
-		<artifactId>movebrick</artifactId>
-		<version>1.0</version>
-	</parent>
-
-	<!--添加Mybatis依赖 -->
-	<dependencies>
-		<dependency>
-			<groupId>org.mybatis.spring.boot</groupId>
-			<artifactId>mybatis-spring-boot-starter</artifactId>
-			<version>${mybatis.version}</version>
-		</dependency>
-	</dependencies>
+    <modules>
+        <module>movebrick-mybatis-annotation</module>
+        <module>movebrick-mybatis-official</module>
+        <module>movebrick-mybatisPlus</module>
+    </modules>
 
 </project>

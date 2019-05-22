@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch-demo/movebrick-elasticsearch-demo.iml" filepath="$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch-demo/movebrick-elasticsearch-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/movebrick-hadoop02.iml" filepath="$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02/movebrick-hadoop02.iml" />
     </modules>
   </component>

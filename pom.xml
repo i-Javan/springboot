@@ -21,26 +21,20 @@
 
     <modules>
         <module>movebrick-redis</module>
-        <module>movebrick-mybatis</module>
-        <module>movebrick-activeMQ</module>
-        <module>movebrick-mybatisPlus</module>
-        <module>movebrick-mybatis-annotation</module>
-        <module>movebrick-zookeeper-dubbo-client</module>
-        <module>movebrick-zookeeper-dubbo-server</module>
         <module>movebrick-elasticsearch</module>
         <module>movebrick-netty-client</module>
         <module>movebrick-netty-server</module>
         <module>movebrick-jdbc</module>
         <module>movebrick-JdbcTemplate</module>
         <module>movebrick-utils</module>
-        <module>movebrick-zookeeper-dubbo-api</module>
         <module>movebrick-rabbitMQ</module>
         <module>movebrick-hadoop</module>
         <module>movebrick-dataStructure</module>
         <module>movebrick-jpa</module>
-        <module>movebrick-elasticsearch01</module>
         <module>movebrick-seckill</module>
-        <module>movebrick-seckill-API</module>
+        <module>movebrick-dubbo</module>
+        <module>movebrick-MQ</module>
+        <module>movebrick-mybatis</module>
     </modules>
 
     <developers>

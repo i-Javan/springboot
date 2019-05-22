@@ -30,6 +30,7 @@ public class HdfsUtil {
     private String username;
 
     private static String hdfsPath;
+    @Value("${hdfs.username}")
     private static String hdfsName;
     private static final int bufferSize = 1024 * 1024 * 64;
 

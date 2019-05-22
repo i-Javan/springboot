@@ -3,11 +3,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-JdbcTemplate" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-activeMQ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-MQ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-MQ/movebrick-activeMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-dataStructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-dubbo/movebrick-zookeeper-dubbo-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-dubbo/movebrick-zookeeper-dubbo-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-dubbo/movebrick-zookeeper-dubbo-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-elasticsearch" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-elasticsearch01" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-elasticsearch01/src/main/resources/application.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-elasticsearch/movebrick-elasticsearch-query" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/groupOrder.txt" charset="UTF-8" />
@@ -24,18 +30,18 @@
     <file url="file://$PROJECT_DIR$/movebrick-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-mybatis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-mybatis-annotation" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-mybatisPlus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-mybatis/movebrick-mybatis-annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-mybatis/movebrick-mybatis-official" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-mybatis/movebrick-mybatisPlus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-netty-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-netty-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-rabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-seckill" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-seckill-API" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-seckill/movebrick-seckill-API" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-seckill/movebrick-seckill-customer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-utils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-zookeeper-dubbo-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-zookeeper-dubbo-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movebrick-zookeeper-dubbo-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/settings.xml" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>movebrick-mybatis-offcial</name>
+    <description>movebrick-mybatis-offcial</description>
+
+    <artifactId>movebrick-mybatis-offcial</artifactId>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.github.i-javan</groupId>
+        <artifactId>movebrick-mybatis</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <!--添加Mybatis依赖 -->
+    <dependencies>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
