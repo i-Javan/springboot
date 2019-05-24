@@ -34,9 +34,9 @@ import java.util.Map;
 public class Test01 extends Test02 {
 
     //@Value("${hdfs.path}")
-    private String path = "hdfs://172.16.104.204:9000";
+    private String path = "hdfs://172.16.104.203:9000";
     //@Value("${hdfs.username}")
-    private String username = "hadoop";
+    private String username = "root";
 
     private static FileSystem fileSystem;
     private static Configuration configuration;

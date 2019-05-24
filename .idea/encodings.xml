@@ -27,6 +27,7 @@
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop01/src/main/resources/data/红楼梦.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hadoop02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-hadoop/movebrick-hbase01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-mybatis" charset="UTF-8" />
@@ -40,6 +41,7 @@
     <file url="file://$PROJECT_DIR$/movebrick-seckill" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-seckill/movebrick-seckill-API" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-seckill/movebrick-seckill-customer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-seckill/movebrick-seckill-customer01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/static/settings.xml" charset="GBK" />
     <file url="PROJECT" charset="GBK" />

@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+HBase:
+  nodes:  172.16.104.203
+  maxsize: 500000

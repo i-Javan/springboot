@@ -8,26 +8,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movebrick-seckill-API" />
-        <module name="movebrick-jdbc" />
         <module name="movebrick-mybatisPlus" />
         <module name="movebrick-dataStructure" />
-        <module name="movebrick-elasticsearch-query" />
+        <module name="movebrick-jdbc" />
         <module name="movebrick-elasticsearch-helloworld" />
-        <module name="movebrick-netty-server" />
+        <module name="movebrick-seckill-customer" />
         <module name="movebrick-netty-client" />
-        <module name="movebrick-rabbitMQ" />
+        <module name="movebrick-netty-server" />
         <module name="movebrick-hadoop02" />
-        <module name="movebrick-JdbcTemplate" />
-        <module name="movebrick-hbase" />
+        <module name="movebrick-hadoop01" />
+        <module name="movebrick-seckill-customer01" />
+        <module name="movebrick-elasticsearch-query" />
         <module name="movebrick-jpa" />
         <module name="movebrick-zookeeper-dubbo-server" />
         <module name="movebrick-zookeeper-dubbo-client" />
-        <module name="movebrick-hadoop01" />
-        <module name="movebrick-zookeeper-dubbo-api" />
+        <module name="movebrick-JdbcTemplate" />
         <module name="movebrick-mybatis-annotation" />
+        <module name="movebrick-zookeeper-dubbo-api" />
+        <module name="movebrick-hbase01" />
         <module name="movebrick-redis" />
         <module name="movebrick-activeMQ" />
-        <module name="movebrick-seckill-customer" />
+        <module name="movebrick-rabbitMQ" />
         <module name="movebrick-utils" />
       </profile>
     </annotationProcessing>
@@ -35,6 +36,7 @@
       <module name="movebrick-elasticsearch (1)" target="1.8" />
       <module name="movebrick-elasticsearch01" target="1.8" />
       <module name="movebrick-hadoop02" target="1.8" />
+      <module name="movebrick-hbase" target="1.8" />
       <module name="movebrick-mybatis (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -52,6 +54,7 @@
       <module name="movebrick-hadoop01" options="-parameters" />
       <module name="movebrick-hadoop02" options="-parameters" />
       <module name="movebrick-hbase" options="-parameters" />
+      <module name="movebrick-hbase01" options="-parameters" />
       <module name="movebrick-jdbc" options="-parameters" />
       <module name="movebrick-jpa" options="-parameters" />
       <module name="movebrick-mybatis" options="" />
@@ -64,6 +67,7 @@
       <module name="movebrick-seckill" options="" />
       <module name="movebrick-seckill-API" options="-parameters" />
       <module name="movebrick-seckill-customer" options="-parameters" />
+      <module name="movebrick-seckill-customer01" options="-parameters" />
       <module name="movebrick-utils" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-api" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-client" options="-parameters" />

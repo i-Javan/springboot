@@ -112,3 +112,13 @@
 2019-04-12 18:38:19 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers
 2019-04-15 16:32:59 DEBUG Tracer:106 - sampler.classes = ; loaded no samplers
 2019-04-15 16:33:00 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers
+2019-05-23 09:42:35 DEBUG Tracer:106 - sampler.classes = ; loaded no samplers
+2019-05-23 09:42:36 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers
+2019-05-23 09:43:36 DEBUG Tracer:106 - sampler.classes = ; loaded no samplers
+2019-05-23 09:43:36 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers
+2019-05-23 09:44:10 DEBUG Tracer:106 - sampler.classes = ; loaded no samplers
+2019-05-23 09:44:11 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers
+2019-05-23 09:45:04 DEBUG Tracer:106 - sampler.classes = ; loaded no samplers
+2019-05-23 09:45:05 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers
+2019-05-23 09:48:00 DEBUG Tracer:106 - sampler.classes = ; loaded no samplers
+2019-05-23 09:48:01 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers

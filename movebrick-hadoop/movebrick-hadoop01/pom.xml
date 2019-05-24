@@ -66,103 +66,178 @@
             <artifactId>ik-analyzers</artifactId>
             <version>5.1.0</version>
         </dependency>
+
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.hbase</groupId>-->
+        <!--            <artifactId>hbase-it</artifactId>-->
+        <!--            <version>1.1.3</version>-->
+        <!--        </dependency>-->
+        <!--<dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-client</artifactId>
+            <version>2.1.1</version>
+        </dependency>-->
+
     </dependencies>
 
-<!--    &lt;!&ndash; 使用阿里云镜像 &ndash;&gt;-->
-<!--    <repositories>-->
-<!--        <repository>-->
-<!--            <id>central</id>-->
-<!--            <name>aliyun maven</name>-->
-<!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
-<!--            <layout>default</layout>-->
-<!--            &lt;!&ndash; 是否开启发布版构件下载 &ndash;&gt;-->
-<!--            <releases>-->
-<!--                <enabled>true</enabled>-->
-<!--            </releases>-->
-<!--            &lt;!&ndash; 是否开启快照版构件下载 &ndash;&gt;-->
-<!--            <snapshots>-->
-<!--                <enabled>false</enabled>-->
-<!--            </snapshots>-->
-<!--        </repository>-->
-<!--    </repositories>-->
+    <!--    &lt;!&ndash; 使用阿里云镜像 &ndash;&gt;-->
+    <!--    <repositories>-->
+    <!--        <repository>-->
+    <!--            <id>central</id>-->
+    <!--            <name>aliyun maven</name>-->
+    <!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
+    <!--            <layout>default</layout>-->
+    <!--            &lt;!&ndash; 是否开启发布版构件下载 &ndash;&gt;-->
+    <!--            <releases>-->
+    <!--                <enabled>true</enabled>-->
+    <!--            </releases>-->
+    <!--            &lt;!&ndash; 是否开启快照版构件下载 &ndash;&gt;-->
+    <!--            <snapshots>-->
+    <!--                <enabled>false</enabled>-->
+    <!--            </snapshots>-->
+    <!--        </repository>-->
+    <!--    </repositories>-->
 </project>
 
-<!--hadoop-mapreduce-example：-->
-<!--        aggregatewordcount 计算输入文件中文字个数的基于聚合的MapReduce程序；-->
-<!--        aggregatewordlist  生成输入文件中文字个数的统计图的基于聚合的MapReduce程序；-->
-<!--        grep 计算输入文件中匹配正则表达式的文字个数的MapReduce程序；-->
-<!--        join 合并排序的平均分割的数据库的作业；-->
-<!--        pentomino 解决五格拼板问题的分块分层的MapReduce程序；-->
-<!--        pi 使用蒙地卡罗法计算pi的MapReduce程序；-->
-<!--        Randomtextwriter 在一个节点上写10G随机文本的MapReduce程序；-->
-<!--        randomwriter 在每个节点上写10G随机数据的MapReduce程序；-->
-<!--        sleep 在每个Map和Reduce作业中休憩的程序；-->
-<!--        sort 排序随机写入器生成的数据的MapReduce程序；-->
-<!--        sudoku 一个九宫格游戏的解决方案；-->
-<!--        wordcount 在输入文件中统计文字个的统计器。-->
+        <!--hadoop-mapreduce-example：-->
+        <!--        aggregatewordcount 计算输入文件中文字个数的基于聚合的MapReduce程序；-->
+        <!--        aggregatewordlist  生成输入文件中文字个数的统计图的基于聚合的MapReduce程序；-->
+        <!--        grep 计算输入文件中匹配正则表达式的文字个数的MapReduce程序；-->
+        <!--        join 合并排序的平均分割的数据库的作业；-->
+        <!--        pentomino 解决五格拼板问题的分块分层的MapReduce程序；-->
+        <!--        pi 使用蒙地卡罗法计算pi的MapReduce程序；-->
+        <!--        Randomtextwriter 在一个节点上写10G随机文本的MapReduce程序；-->
+        <!--        randomwriter 在每个节点上写10G随机数据的MapReduce程序；-->
+        <!--        sleep 在每个Map和Reduce作业中休憩的程序；-->
+        <!--        sort 排序随机写入器生成的数据的MapReduce程序；-->
+        <!--        sudoku 一个九宫格游戏的解决方案；-->
+        <!--        wordcount 在输入文件中统计文字个的统计器。-->
 
-<!--Hadoop:-->
-<!--    离线处理：MapReduce(Distributed Computation): MapReduce是一种并行编程模型，用于编程普通硬件的设计，谷歌对大量数据的高效处理（-->
-<!--        多TB数据集）的分布式应用在大型集群（数千个节点）以及可靠的容错方式。MapReduce程序可在Apache的开源Hadoop上运行。-->
-<!--    文件系统：Hadoop Hdfs:Hadoop分布式系统是基于谷歌文件系统（GFS），并提供了一个设计在普通硬件上运行的分布式系统。它与现有的分布式-->
-<!--        文件系统有许多相似之处。来自其他分布式文件系统的差别是显著。他高度容错并设计成部署在低成本的硬件。提供了高吞吐量的-->
-<!--        应用数据访问，并且适用于具有大数据集的应用程序。-->
-<!--    实用工具：Hadoop Common Utilities：这是java库和其他Hadoop组件所需的实用工具。-->
-<!--    资源管理：Hadoop YARN Framework:作业调度和集群资源管理的框架。-->
+        <!--Hadoop:-->
+        <!--    离线处理：MapReduce(Distributed Computation): MapReduce是一种并行编程模型，用于编程普通硬件的设计，谷歌对大量数据的高效处理（-->
+        <!--        多TB数据集）的分布式应用在大型集群（数千个节点）以及可靠的容错方式。MapReduce程序可在Apache的开源Hadoop上运行。-->
+        <!--    文件系统：Hadoop Hdfs:Hadoop分布式系统是基于谷歌文件系统（GFS），并提供了一个设计在普通硬件上运行的分布式系统。它与现有的分布式-->
+        <!--        文件系统有许多相似之处。来自其他分布式文件系统的差别是显著。他高度容错并设计成部署在低成本的硬件。提供了高吞吐量的-->
+        <!--        应用数据访问，并且适用于具有大数据集的应用程序。-->
+        <!--    实用工具：Hadoop Common Utilities：这是java库和其他Hadoop组件所需的实用工具。-->
+        <!--    资源管理：Hadoop YARN Framework:作业调度和集群资源管理的框架。-->
 
-<!--Hadoop如何工作？-->
-<!--    建立重配置，处理大规模处理服务器这是相当昂贵的，但是作为替代，可以联系许多普通电脑采用单CPU在一起，作为一个单一功能的-->
-<!--    分布式系统，实际上，集群机可以平行读取数据集，并提供一个高得多的吞吐量。此外，这样便宜不到一个高端服务器价格。因此使用-->
-<!--    Hadoop跨越集群和低成本的机器上运行是一个不错不选择。-->
+        <!--Hadoop如何工作？-->
+        <!--    建立重配置，处理大规模处理服务器这是相当昂贵的，但是作为替代，可以联系许多普通电脑采用单CPU在一起，作为一个单一功能的-->
+        <!--    分布式系统，实际上，集群机可以平行读取数据集，并提供一个高得多的吞吐量。此外，这样便宜不到一个高端服务器价格。因此使用-->
+        <!--    Hadoop跨越集群和低成本的机器上运行是一个不错不选择。-->
 
-<!--Hadoop运行整个计算机集群代码。这个过程包括以下核心任务由 Hadoop 执行：-->
-<!--        数据最初分为目录和文件。文件分为128M和64M（128M最好）统一大小块。-->
-<!--        然后这些文件被分布在不同的群集节点，以便进一步处理。-->
-<!--        HDFS，本地文件系统的顶端﹑监管处理。-->
-<!--        块复制处理硬件故障。-->
-<!--        检查代码已成功执行。-->
-<!--        执行发生映射之间，减少阶段的排序。-->
-<!--        发送排序的数据到某一计算机。-->
-<!--        为每个作业编写的调试日志。-->
+        <!--Hadoop运行整个计算机集群代码。这个过程包括以下核心任务由 Hadoop 执行：-->
+        <!--        数据最初分为目录和文件。文件分为128M和64M（128M最好）统一大小块。-->
+        <!--        然后这些文件被分布在不同的群集节点，以便进一步处理。-->
+        <!--        HDFS，本地文件系统的顶端﹑监管处理。-->
+        <!--        块复制处理硬件故障。-->
+        <!--        检查代码已成功执行。-->
+        <!--        执行发生映射之间，减少阶段的排序。-->
+        <!--        发送排序的数据到某一计算机。-->
+        <!--        为每个作业编写的调试日志。-->
 
-<!--HDFS有两种节点类型：NameNode和DataNode，以master/slaver模式运行。-->
-<!--    NameNode：-->
-<!--        管理文件系统的命名空间。维护整个文件系统树和这个树内的所有文件和索引目录（所有信息以两种方式持久化保存在本地磁盘：命名-->
-<!--        空间镜像和编辑日志）。如果丢失NameNode，整个文件系统将无法使用，因为无法知道如果通过数据节点重建文件。NameNode记录着每-->
-<!--        个文件中各个块所在数据节点的位置信息，但不会持久化存储这些信息，因为这些信息在DataNode启动的时候会从DataNode中重建。-->
-<!--    DataNode：-->
-<!--        保存Block（即：负责把HDFS数据库写在本地文件系统），每个Block对应一个NameNode信息文件；启动DataNode时，会向NameNode-->
-<!--        汇报Block信息；定期发送心跳给NameNode，实现通信。-->
-<!--    SecondNameNode：-->
-<!--        监控HDFS状态的辅助后台程序。类似于NameNode，每个集群都有一个SecondNameNode，且单独部署在一个单独的服务器-->
-<!--        上。与同于NameNode的时，SecondNameNode不接受/记录任何实时数据变化。但是会周期性的将EditsLog文件中记录对HDFS的操作合-->
-<!--        并到一个FsImage文件，然后清空EditsLog文件。当NameNode重启时就会加载该FsImage文件。-->
-<!--    SecondNameNode的作用：-->
-<!--        （1）如果没有SecondNameNode，NameNode的每次启动则会花费太长的时间。周期性的合并能减少重启时花费的时间。-->
-<!--        （2）可以将应为NameNode宕机而造成的数据丢失的风险尽可能降低（因为SecondNodeName合并是周期性的，所以难免会丢失一些最新-->
-<!--        的数据信息）。-->
+        <!--HDFS有两种节点类型：NameNode和DataNode，以master/slaver模式运行。-->
+        <!--    NameNode：-->
+        <!--        管理文件系统的命名空间。维护整个文件系统树和这个树内的所有文件和索引目录（所有信息以两种方式持久化保存在本地磁盘：命名-->
+        <!--        空间镜像和编辑日志）。如果丢失NameNode，整个文件系统将无法使用，因为无法知道如果通过数据节点重建文件。NameNode记录着每-->
+        <!--        个文件中各个块所在数据节点的位置信息，但不会持久化存储这些信息，因为这些信息在DataNode启动的时候会从DataNode中重建。-->
+        <!--    DataNode：-->
+        <!--        保存Block（即：负责把HDFS数据库写在本地文件系统），每个Block对应一个NameNode信息文件；启动DataNode时，会向NameNode-->
+        <!--        汇报Block信息；定期发送心跳给NameNode，实现通信。-->
+        <!--    SecondNameNode：-->
+        <!--        监控HDFS状态的辅助后台程序。类似于NameNode，每个集群都有一个SecondNameNode，且单独部署在一个单独的服务器-->
+        <!--        上。与同于NameNode的时，SecondNameNode不接受/记录任何实时数据变化。但是会周期性的将EditsLog文件中记录对HDFS的操作合-->
+        <!--        并到一个FsImage文件，然后清空EditsLog文件。当NameNode重启时就会加载该FsImage文件。-->
+        <!--    SecondNameNode的作用：-->
+        <!--        （1）如果没有SecondNameNode，NameNode的每次启动则会花费太长的时间。周期性的合并能减少重启时花费的时间。-->
+        <!--        （2）可以将应为NameNode宕机而造成的数据丢失的风险尽可能降低（因为SecondNodeName合并是周期性的，所以难免会丢失一些最新-->
+        <!--        的数据信息）。-->
 
-<!--        JobTracker 对应于 NameNode-->
-<!--        TaskTracker 对应于 DataNode-->
-<!--        NameNode和DataNode是只对数据存放而言的-->
-<!--        JobTracker和TaskTracker是对应于MapReduce执行而言-->
+        <!--        JobTracker 对应于 NameNode-->
+        <!--        TaskTracker 对应于 DataNode-->
+        <!--        NameNode和DataNode是只对数据存放而言的-->
+        <!--        JobTracker和TaskTracker是对应于MapReduce执行而言-->
 
-<!--一、MapReduce的容错性：-->
-<!--        1， map或reduce运行时因代码原因而抛出的异常。在这种情况下，子进程JVM会在进程退出前向TaskTracker父进程发送错误报告。在-->
-<!--        日志中记录该错误。-->
-<!--        2， TaskTracker失败：有TaskTracker运行缓慢或崩溃而导致无法向JobTracker发送心跳，JobTracker会将该TaskTracker从任务调-->
-<!--        度池中移除，并重新调度该任务。-->
-<!--        3， JobTracker失败：这种失败发生的概率很小；但一旦发生导致的后果最为严重，因此通过Zookeeper协调机制来降低这种问题发生的-->
-<!--        概率。-->
+        <!--一、MapReduce的容错性：-->
+        <!--        1， map或reduce运行时因代码原因而抛出的异常。在这种情况下，子进程JVM会在进程退出前向TaskTracker父进程发送错误报告。在-->
+        <!--        日志中记录该错误。-->
+        <!--        2， TaskTracker失败：有TaskTracker运行缓慢或崩溃而导致无法向JobTracker发送心跳，JobTracker会将该TaskTracker从任务调-->
+        <!--        度池中移除，并重新调度该任务。-->
+        <!--        3， JobTracker失败：这种失败发生的概率很小；但一旦发生导致的后果最为严重，因此通过Zookeeper协调机制来降低这种问题发生的-->
+        <!--        概率。-->
 
-<!--二、HDFS的容错性-->
-<!--        NameNode容错性：-->
-<!--            a) SecondeNameNode可以解决NameNode单点失败的情况。但是该方法存在以下三点问题：1)必须通过人工的方式寻找并拷贝-->
-<!--                SecondNameNode中的镜像文件，手动开启NameNode，无法自动化完成。2)NameNode失败期间，任何人无法以任何形式访问、操作-->
-<!--                HDFS中的文件。3)SecondNameNode的镜像文件保存有时间差，恢复时会存在数据丢失。-->
-<!--            b)通过Zookeeper实现NameNode备份。在HDFS系统中配置多个NameNode，并向Zookeeper注册自己的存在。即可通过Zookeeper-->
-<!--                的Watch和Dispatch实现各NameNode之间的协同。-->
-<!--        DataNode容错性：-->
-<!--            DataNode是以数据块作为容错单元，默认情况下，每个数据块会被备份在三分，分别存在不同的DataNode上。当一个数据块访问-->
-<!--            失效，则会从备份的DataNode中选取一个，并备份该数据块，以保证数据块的最低备份标准。-->
+        <!--二、HDFS的容错性-->
+        <!--        NameNode容错性：-->
+        <!--            a) SecondeNameNode可以解决NameNode单点失败的情况。但是该方法存在以下三点问题：1)必须通过人工的方式寻找并拷贝-->
+        <!--                SecondNameNode中的镜像文件，手动开启NameNode，无法自动化完成。2)NameNode失败期间，任何人无法以任何形式访问、操作-->
+        <!--                HDFS中的文件。3)SecondNameNode的镜像文件保存有时间差，恢复时会存在数据丢失。-->
+        <!--            b)通过Zookeeper实现NameNode备份。在HDFS系统中配置多个NameNode，并向Zookeeper注册自己的存在。即可通过Zookeeper-->
+        <!--                的Watch和Dispatch实现各NameNode之间的协同。-->
+        <!--        DataNode容错性：-->
+        <!--            DataNode是以数据块作为容错单元，默认情况下，每个数据块会被备份在三分，分别存在不同的DataNode上。当一个数据块访问-->
+        <!--            失效，则会从备份的DataNode中选取一个，并备份该数据块，以保证数据块的最低备份标准。-->
 
+
+        <!-- Hbase Help
+        Help for table-reference commands.
+        You can either create a table via 'create' and then manipulate the table via commands like 'put', 'get', etc.
+        See the standard help information for how to use each of these commands.
+        However, as of 0.96, you can also get a reference to a table, on which you can invoke commands.
+        For instance, you can get create a table and keep around a reference to it via:
+        hbase> t = create 't', 'cf'
+        Or, if you have already created the table, you can get a reference to it:
+        hbase> t = get_table 't'
+        You can do things like call 'put' on the table:
+        hbase> t.put 'r', 'cf:q', 'v'
+        which puts a row 'r' with column family 'cf', qualifier 'q' and value 'v' into table t.
+        To read the data out, you can scan the table:
+        hbase> t.scan
+        which will read all the rows in table 't'.
+        Essentially, any command that takes a table name can also be done via table reference.
+        Other commands include things like: get, delete, deleteall,
+        get_all_columns, get_counter, count, incr. These functions, along with
+        the standard JRuby object methods are also available via tab completion.
+        For more information on how to use each of these commands, you can also just type:
+        hbase> t.help 'scan'
+        which will output more information on how to use that command.
+        You can also do general admin actions directly on a table; things like enable, disable,
+        flush and drop just by typing:
+        hbase> t.enable
+        hbase> t.flush
+        hbase> t.disable
+        hbase> t.drop
+        Note that after dropping a table, your reference to it becomes useless and further usage
+        is undefined (and not recommended).
+
+        译文：
+        表引用命令的帮助。
+        您可以通过'create'创建一个表，然后通过'put'、'get'等命令操作表。
+        有关如何使用这些命令，请参阅标准帮助信息。
+        但是，从0.96开始，您还可以获得对表的引用，您可以在该表上调用命令。
+        例如，你可以创建一个表，并保持周围的引用它通过:
+        hbase> t =创建't'， 'cf'
+        或者，如果你已经创建了这个表，你可以得到它的引用:
+        hbase> t = get_table 't'
+        你可以这样做:
+        hbase > t。写r cf q v
+        它将行“r”与列族“cf”、限定符“q”和值“v”放在表t中。
+        要读取数据，可以扫描表:
+        hbase > t.scan
+        它将读取表't'中的所有行。
+        本质上，任何接受表名的命令都可以通过表引用来执行。
+        其他命令包括:get、delete、deleteall、
+        get_all_columns, get_counter, count, incr。这些函数
+        标准的JRuby对象方法也可以通过选项卡完成。
+        有关如何使用这些命令的更多信息，您还可以输入:
+        hbase > t。帮助“扫描”
+        这将输出关于如何使用该命令的更多信息。
+        您还可以直接对表执行一般管理操作;比如启用，禁用，
+        只需输入:
+        hbase > t.enable
+        hbase > t.flush
+        hbase > t.disable
+        hbase > t.drop
+        注意，在删除表之后，对该表的引用将变得无用，并且会进一步使用
+        未定义(不建议)。
+        -->

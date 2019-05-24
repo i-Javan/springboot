@@ -14,7 +14,7 @@ public class BaseDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    public List<Map<String, Object>> getList(String sql){
+    public List<Map<String, Object>> getList(String sql) {
         List<Map<String, Object>> list = jdbcTemplate.query(sql, new ColumnMapRowMapper());
         return list;
     }

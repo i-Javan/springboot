@@ -13,16 +13,18 @@ import java.io.IOException;
  * @author: logan.zou
  * @date: 2019-01-02 14:05
  */
-public class CounterMapper extends Mapper<LongWritable,Text, Text, IntWritable> {
+public class CounterMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+    private Text keyout;
+
     // 通过枚举形式自定义计数器
-    enum MyCounter {MALFORORMED,NORMAL}
+    enum MyCounter {MALFORORMED, NORMAL}
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
         String[] words = line.split(" ");
         for (String word : words) {
-            context.write(new Text(word), new IntWritable(1));
+            context.write(keyout, new IntWritable(1));
         }
 
         // 对枚举定义的计数器加1
@@ -30,7 +32,7 @@ public class CounterMapper extends Mapper<LongWritable,Text, Text, IntWritable> 
         // 通过动态设置自定义计数器加1
         context.getCounter("counterGroupa", "countera").increment(1);
         // 设置数值
-        context.getCounter("","").setValue(10);
+        context.getCounter("", "").setValue(10);
     }
 }
 
