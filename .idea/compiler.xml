@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movebrick-seckill-API" />
+        <module name="movebrick-sqoop01" />
         <module name="movebrick-mybatisPlus" />
         <module name="movebrick-dataStructure" />
+        <module name="movebrick-JdbcTemplate" />
         <module name="movebrick-jdbc" />
         <module name="movebrick-elasticsearch-helloworld" />
         <module name="movebrick-seckill-customer" />
@@ -22,7 +24,7 @@
         <module name="movebrick-jpa" />
         <module name="movebrick-zookeeper-dubbo-server" />
         <module name="movebrick-zookeeper-dubbo-client" />
-        <module name="movebrick-JdbcTemplate" />
+        <module name="movebrick-spark01" />
         <module name="movebrick-mybatis-annotation" />
         <module name="movebrick-zookeeper-dubbo-api" />
         <module name="movebrick-hbase01" />
@@ -68,6 +70,8 @@
       <module name="movebrick-seckill-API" options="-parameters" />
       <module name="movebrick-seckill-customer" options="-parameters" />
       <module name="movebrick-seckill-customer01" options="-parameters" />
+      <module name="movebrick-spark01" options="-parameters" />
+      <module name="movebrick-sqoop01" options="-parameters" />
       <module name="movebrick-utils" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-api" options="-parameters" />
       <module name="movebrick-zookeeper-dubbo-client" options="-parameters" />
