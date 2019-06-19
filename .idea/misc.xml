@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/movebrick-mybatis-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/movebrick-mybatis/movebrick-mybatis-annotation" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

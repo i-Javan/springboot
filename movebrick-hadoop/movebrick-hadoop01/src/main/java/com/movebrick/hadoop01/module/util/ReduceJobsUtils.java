@@ -62,6 +62,42 @@ public class ReduceJobsUtils {
      * @param jobName
      * @return
      */
+    public static void getPolluteCountJobsConf(String jobName, String inputPath, String outputPath) throws IOException, ClassNotFoundException, InterruptedException {
+        Configuration conf = getConfiguration();
+        Job job = Job.getInstance(conf, jobName);
+        job.setJarByClass(PolluteCountMap.class);
+
+        // 指定Mapper的类
+        job.setMapperClass(PolluteCountMap.TokenizerMapper.class);
+        job.setCombinerClass(PolluteCountMap.IntSumReducer.class);
+        // 指定reduce的类
+        job.setReducerClass(PolluteCountMap.IntSumReducer.class);
+
+        // 设置Mapper输出的类型
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(IntWritable.class);
+
+        // 小文件合并设置
+        job.setInputFormatClass(CombineTextInputFormat.class);
+        // 最大分片
+        CombineTextInputFormat.setMaxInputSplitSize(job, 4 * 1024 * 1024);
+        // 最小分片
+        CombineTextInputFormat.setMinInputSplitSize(job, 2 * 1024 * 1024);
+
+        // 指定输入文件的位置
+        FileInputFormat.addInputPath(job, new Path(inputPath));
+        // 指定输入文件的位置
+        FileOutputFormat.setOutputPath(job, new Path(outputPath));
+        // 将job中的参数，提交到yarn中运行
+        job.waitForCompletion(true);
+    }
+
+    /**
+     * 获取单词统计的配置信息
+     *
+     * @param jobName
+     * @return
+     */
     public static void getWordCountJobsConf(String jobName, String inputPath, String outputPath) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = getConfiguration();
         Job job = Job.getInstance(conf, jobName);

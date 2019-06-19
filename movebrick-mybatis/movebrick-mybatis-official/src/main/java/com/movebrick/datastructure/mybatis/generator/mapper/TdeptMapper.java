@@ -2,14 +2,12 @@ package com.movebrick.datastructure.mybatis.generator.mapper;
 
 import com.movebrick.datastructure.mybatis.generator.model.Tdept;
 import com.movebrick.datastructure.mybatis.generator.model.TdeptExample;
+import org.jboss.logging.Param;
 
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 /**
- * 
  * @author Javan By 20190322
- *
  */
 public interface TdeptMapper {
     long countByExample(TdeptExample example);

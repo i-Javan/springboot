@@ -9,9 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="movebrick-seckill-API" />
         <module name="movebrick-sqoop01" />
+        <module name="movebrick-redis" />
         <module name="movebrick-mybatisPlus" />
         <module name="movebrick-dataStructure" />
-        <module name="movebrick-JdbcTemplate" />
+        <module name="movebrick-spark01" />
         <module name="movebrick-jdbc" />
         <module name="movebrick-elasticsearch-helloworld" />
         <module name="movebrick-seckill-customer" />
@@ -24,11 +25,11 @@
         <module name="movebrick-jpa" />
         <module name="movebrick-zookeeper-dubbo-server" />
         <module name="movebrick-zookeeper-dubbo-client" />
-        <module name="movebrick-spark01" />
+        <module name="movebrick-JdbcTemplate" />
         <module name="movebrick-mybatis-annotation" />
-        <module name="movebrick-zookeeper-dubbo-api" />
+        <module name="movebrick-hbase02" />
         <module name="movebrick-hbase01" />
-        <module name="movebrick-redis" />
+        <module name="movebrick-zookeeper-dubbo-api" />
         <module name="movebrick-activeMQ" />
         <module name="movebrick-rabbitMQ" />
         <module name="movebrick-utils" />
@@ -57,6 +58,7 @@
       <module name="movebrick-hadoop02" options="-parameters" />
       <module name="movebrick-hbase" options="-parameters" />
       <module name="movebrick-hbase01" options="-parameters" />
+      <module name="movebrick-hbase02" options="-parameters" />
       <module name="movebrick-jdbc" options="-parameters" />
       <module name="movebrick-jpa" options="-parameters" />
       <module name="movebrick-mybatis" options="" />

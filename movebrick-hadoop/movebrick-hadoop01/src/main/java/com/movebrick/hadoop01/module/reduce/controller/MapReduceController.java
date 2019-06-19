@@ -22,6 +22,22 @@ public class MapReduceController {
     MapReduceService mapReduceService;
 
     /**
+     * 污染源统计
+     *
+     * @param jobName
+     * @param inputPath
+     * @return
+     */
+    @PostMapping("/pollCount")
+    public BaseReturnVO polluteCount(@RequestParam("jobName") String jobName, @RequestParam("inputPath") String inputPath) throws Exception {
+        if (StringUtils.isEmpty(jobName) || StringUtils.isEmpty(inputPath)) {
+            return new BaseReturnVO("请求参数为空");
+        }
+        mapReduceService.polluteCountCount(jobName, inputPath);
+        return new BaseReturnVO("污染源统计成功");
+    }
+
+    /**
      * 单词统计
      *
      * @param jobName

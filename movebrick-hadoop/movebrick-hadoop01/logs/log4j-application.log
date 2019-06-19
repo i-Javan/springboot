@@ -122,3 +122,5 @@
 2019-05-23 09:45:05 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers
 2019-05-23 09:48:00 DEBUG Tracer:106 - sampler.classes = ; loaded no samplers
 2019-05-23 09:48:01 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers
+2019-06-10 11:47:36 DEBUG Tracer:106 - sampler.classes = ; loaded no samplers
+2019-06-10 11:47:36 DEBUG Tracer:128 - span.receiver.classes = ; loaded no span receivers

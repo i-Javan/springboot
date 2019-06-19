@@ -14,6 +14,7 @@
         <module>movebrick-hbase01</module>
         <module>movebrick-spark01</module>
         <module>movebrick-sqoop01</module>
+        <module>movebrick-hbase02</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 

@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -56,5 +57,14 @@ public class TestHbaseSql {
         result2.forEach((k, value) -> {
             System.out.println(k + "---" + value);
         });
+    }
+
+
+    @Test
+    public void test03() {
+        List<String> allTableNames = hbaseService.getAllTableNames();
+        for (String tablename : allTableNames) {
+            System.err.println(tablename);
+        }
     }
 }

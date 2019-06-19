@@ -1,6 +1,5 @@
 package com.movebrick.sqoop.service;
 
-
 import org.apache.hadoop.conf.Configuration;
 import org.apache.sqoop.Sqoop;
 import org.apache.sqoop.tool.SqoopTool;
@@ -11,7 +10,7 @@ public class SqoopService {
         System.setProperty("HADOOP_USER_NAME", "root");
         String[] args = new String[]{
                 "--connect", "jdbc:mysql://172.16.104.204:3306/air",
-                "--driver", "com.mysql.jdbc.Driver",
+                "--driver", "com.mysql.cj.jdbc.Driver",
                 "-username", "root",
                 "-password", "bigdata",
                 "--table", "dept",

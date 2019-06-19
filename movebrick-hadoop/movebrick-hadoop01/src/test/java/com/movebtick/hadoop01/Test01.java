@@ -118,7 +118,7 @@ public class Test01 extends Test02 {
     public void application() throws Exception {
         System.err.println("---------- Start ------------");
         // 服务器文件
-        Path serverPath = new Path("/input/1500000.txt");
+        Path serverPath = new Path("/input/三国演义.txt");
         // 原始文件
         Path localhostDataPath = new Path("D:\\work space\\git-springboot\\movebrick-hadoop\\movebrick-hadoop01\\src\\main\\resources\\data\\1500000.txt");
         // 目标目录
