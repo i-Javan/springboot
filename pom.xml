@@ -35,6 +35,7 @@
         <module>movebrick-dubbo</module>
         <module>movebrick-MQ</module>
         <module>movebrick-mybatis</module>
+        <module>movebrick-async</module>
     </modules>
 
     <developers>

@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movebrick-seckill-API" />
+        <module name="movebrick-EnableAsync" />
         <module name="movebrick-sqoop01" />
-        <module name="movebrick-redis" />
         <module name="movebrick-mybatisPlus" />
         <module name="movebrick-dataStructure" />
         <module name="movebrick-spark01" />
@@ -25,11 +25,12 @@
         <module name="movebrick-jpa" />
         <module name="movebrick-zookeeper-dubbo-server" />
         <module name="movebrick-zookeeper-dubbo-client" />
+        <module name="movebrick-hbase02" />
         <module name="movebrick-JdbcTemplate" />
         <module name="movebrick-mybatis-annotation" />
-        <module name="movebrick-hbase02" />
-        <module name="movebrick-hbase01" />
         <module name="movebrick-zookeeper-dubbo-api" />
+        <module name="movebrick-hbase01" />
+        <module name="movebrick-redis" />
         <module name="movebrick-activeMQ" />
         <module name="movebrick-rabbitMQ" />
         <module name="movebrick-utils" />
@@ -45,6 +46,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="movebrick-EnableAsync" options="-parameters" />
       <module name="movebrick-JdbcTemplate" options="-parameters" />
       <module name="movebrick-activeMQ" options="-parameters" />
       <module name="movebrick-dataStructure" options="-parameters" />

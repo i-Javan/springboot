@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/movebrick-JdbcTemplate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-MQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-MQ/movebrick-activeMQ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-async" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-async/movebrick-EnableAsync" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movebrick-async/movebrick-EnableAsync" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-dataStructure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-dubbo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movebrick-dubbo/movebrick-zookeeper-dubbo-api" charset="UTF-8" />
