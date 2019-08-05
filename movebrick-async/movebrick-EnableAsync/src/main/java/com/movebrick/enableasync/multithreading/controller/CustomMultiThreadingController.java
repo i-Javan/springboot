@@ -19,7 +19,7 @@ public class CustomMultiThreadingController {
     private CustomMultiThreadingService customMultiThreadingService;
 
     @RequestMapping(value = "/dotask")
-    public String doTask() {
+    public String doTask() throws InterruptedException {
         for (int i = 0; i < 10; i++) {
             customMultiThreadingService.executeAysncTask1(i);
             customMultiThreadingService.executeAsyncTask2(i);

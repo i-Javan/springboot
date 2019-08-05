@@ -25,8 +25,10 @@ public class CustomMultiThreadingService {
      * @Throws
      */
     @Async
-    public void executeAysncTask1(Integer i) {
+    public void executeAysncTask1(Integer i) throws InterruptedException {
         logger.info("CustomMultiThreadingService ==> executeAysncTask1 method: 执行异步任务{} ", i);
+        Thread.sleep(10000);
+
     }
 
     /**
@@ -38,7 +40,8 @@ public class CustomMultiThreadingService {
      * @Throws
      */
     @Async
-    public void executeAsyncTask2(Integer i) {
+    public void executeAsyncTask2(Integer i) throws InterruptedException {
         logger.info("CustomMultiThreadingService ==> executeAsyncTask2 method: 执行异步任务{} ", i);
+        Thread.sleep(10000);
     }
 }
